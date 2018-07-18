@@ -1,0 +1,10 @@
+weight: 4
+name: "labestData"
+image: "../img/projects/labestData.png"
+description: |
+  Contains more than 450 fully documented datasets for learning and
+  teaching of data analysis. These datasets came from books and were
+  copied to the package as data frames with the correponding
+  documentation provided in the book source.  <br>**Project owner**: PET
+  Estatística UFPR.
+url: https://github.com/pet-estatistica/labestData

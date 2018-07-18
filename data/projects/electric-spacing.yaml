@@ -1,0 +1,5 @@
+weight: 4
+name: "electric-spacing"
+image: "../img/projects/electric-spacing.gif"
+description: "Smart operators for R using Emacs."
+url: https://github.com/walmes/electric-spacing

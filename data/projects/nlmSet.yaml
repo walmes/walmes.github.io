@@ -1,0 +1,5 @@
+weight: 4
+name: "nlmSet"
+image: "https://raw.githubusercontent.com/walmes/Tikz/master/src/gompertz.png"
+description: "Nonlinear regression models catalogue."
+url: https://github.com/leg-ufpr/nlmSet
