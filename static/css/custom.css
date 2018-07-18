@@ -1,0 +1,29 @@
+#heading-breadcrumbs {
+    background: url('../img/pattern-pixels.gif') center center repeat;
+    padding: 1px 0;
+    margin-bottom: 40px;
+}
+
+#footer {
+    margin-top: 2em;
+}
+
+ul.ul-edu li .description p.institution {
+    font-size: 90%;
+}
+
+.ul-interests, .ul-edu {
+    text-align: left;
+}
+
+img.projects {
+    height: 240px;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.box {
+    background: unset;
+    border: unset;
+}
