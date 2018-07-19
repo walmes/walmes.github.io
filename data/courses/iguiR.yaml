@@ -1,0 +1,19 @@
+weight: -201507
+name: "Explorando Interfaces Gráficas com o R"
+instructors: "Eduardo Elias Ribeiro Jr & Walmes Marques Zeviani"
+image: "../img/courses/iguiR.gif"
+description: |
+
+  Curso oferecido da 60ª Reunião da RBras e 16º SEAGRO.  Neste curso
+  foram consideradas ferramentas em R para produzir resultados de forma
+  interativa que se caracterizam pela interação proporcionada ao
+  usuário, quando o objetivo é a criação de interfaces com widgets
+  (controladores como botões, deslizadores etc.)  e pelo dinamismo dos
+  gráficos, quando o objetivo é apenas visualização. Foram ilustrados
+  recursos de sete pacotes R que possibilitam alguma forma de interação
+  com o usuário: `animation`, `rgl`, `googleVis`, `rCharts`, `rpanel`,
+  `gWdigets` e `shiny`.
+
+url: https://github.com/pet-estatistica/iguir2
+date: "20 a 24 de Julho de 2015"
+place: "Presidente Prudente - São Paulo"

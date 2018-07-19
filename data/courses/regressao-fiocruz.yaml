@@ -1,0 +1,16 @@
+weight: -201504
+name: "Modelos de Regressão e Aplicações no Ambiente R"
+image: "../img/courses/regressao-fiocruz.png"
+description: |
+
+  Curso sobre modelos de regressão linear oferecido para os
+  colaboradores da Fundação Oswaldo Cruz - FIOCRUZ.  Abordou-se aspectos
+  introdutórios, especificação do modelo, estimação de parâmetros,
+  análise de diagóstico, testes de hipótese, regressão polinomial,
+  modelos com variáveis categóricas e seleção de variáveis.  Este curso
+  foi eferecido anteriormente para colaboradores da [Embrapa Arroz e
+  Feijão](http://leg.ufpr.br/~walmes/cursoR/cnpaf3/), em 2014.
+
+url: http://leg.ufpr.br/~walmes/cursoR/fiocruz/
+date: "13 a 17 de Abril de 2015"
+place: "Manaus - Amazonas"

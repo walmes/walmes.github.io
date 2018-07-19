@@ -1,0 +1,20 @@
+weight: -201707
+name: "McGLM for the Analysis of Experimental Data"
+instructors: "Wagner Hugo Bonat & Walmes Marques Zeviani"
+image: "../img/courses/mcglm4aed.png"
+description: |
+
+  The main goal of this course is to discuss the analysis of
+  multivariate experimental data based on the recently proposed
+  multivariate covariance generalized linear models (McGLM) framework
+  (Bonat and Jørgensen; 2016)1. This class of models can deal with
+  multiple non-Gaussian response variables and can easily be adapted to
+  deal with the most commons types of experimental designs, including
+  multilevel and longitudinal designs and correlated responses. McGLMs
+  can be seen as a extension of the MANOVA approach for the analysis of
+  non-Gaussian data. We present the model specification along with
+  strategies for model fitting and the associated R code.
+
+url: http://cursos.leg.ufpr.br/mcglm4aed/
+date: "July 24th – 28th, 2017"
+place: "Lavras - Minas Gerais"

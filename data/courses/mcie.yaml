@@ -1,0 +1,20 @@
+weight: -201205
+name: "Métodos Computacionais em Inferência Estatística"
+instructors: "Wagner Hugo Bonat, Paulo Justiniano Ribeiro Jr, Elias Teixeira Krainski & Walmes Marques Zeviani"
+image: "../img/courses/mcie.png"
+description: |
+
+  Minicurso apresentado pela primeira vez na 57ª Reunião da RBras em
+  seguida no 20º SINAPE . Desde então, o curso tem sido atualizado e
+  oferecido em outras conferências.  O livro texto do curso situa-se na
+  interface entre métodos de inferência estatística baseada em
+  verossimilhança e métodos computacionais (com implementações em
+  ambiente R ). Sem aprofundar em nenhuma das duas áreas, procurou-se
+  ilustrar suas conexões através de diversos exemplos básicos de
+  modelagem estatística. A expectativa é a de que o texto possa servir
+  como material introdutório ao leitor e facilitar seu caminho para
+  construir suas próprias implementações em modelagens de seu interesse.
+
+url: http://www.leg.ufpr.br/mcie
+date: "05 a 09 de Maio de 2012 (1 ed.) -- 16 de Fevereiro de 2018 (última edição)"
+place: "Piracicaba - São Paulo"

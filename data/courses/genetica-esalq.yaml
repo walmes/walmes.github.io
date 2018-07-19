@@ -1,0 +1,25 @@
+weight: -201410
+name: "Ajuste de modelos lineares e mistos no ambiente R (análise de experimentos)"
+image: "../img/courses/genetica-esalq.png"
+description: |
+
+  Curso sobre análise de experimentos utilizando modelos lineares de
+  efeitos fixos e mistos com o R.  É feito um rápido nivelamento sobre o
+  R, com as primeiras noções sobre a linguagem e as capacidades
+  gráficas. Em seguida, dados sob os principais delineamentos
+  experimentais são analisados passando pela análise exploratória,
+  ajuste e interpretação dos modelos, verificação dos pressupostos e
+  testes de comparação múltipla de médias. As últimas lições empregam
+  modelos mistos para análise de ensaios multínivel, como experimentos
+  em parcela subdividida e análise conjunta de experimentos. Outros cursos dados possuem material muito semelhante a esse:
+
+    * [Análise de experimentos com R](http://leg.ufpr.br/~walmes/cursoR/UFGD/) - Universidade Federal da Grande Dourados, 2016.
+    * [Curso de estatística experimental com aplicações em R](http://leg.ufpr.br/~walmes/cursoR/cpaa/) - Embrapa Amazônia Ocidental, 2014.
+    * [Análise de experimentos com R](http://leg.ufpr.br/~walmes/cursoR/ciaeear/) - Conferência Internacional da Amazônia em Estatística Experimental e Análise do Risco, 2014.
+    * [Curso de capacitação em estatística experimental com uso do R](http://leg.ufpr.br/~walmes/cursoR/cpao/) - Embrapa Agropecuária Oeste, 2012.
+    * [Aplicação de modelos mistos por meio da ferramenta R](http://leg.ufpr.br/~walmes/cursoR/cnpaf2/) - Embrapa Arroz e Feijão, 2012.
+    * [Estatística Experimental Aplicada](http://leg.ufpr.br/~walmes/cursoR/cnpaf/) - Embrapa Arroz e Feijão, 2011.
+
+url: http://leg.ufpr.br/~walmes/cursoR/geneticaEsalq
+date: "09 e 10 de Outubro de 2014"
+place: "Piracicaba - São Paulo"

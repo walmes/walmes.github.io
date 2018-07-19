@@ -1,0 +1,23 @@
+weight: -201605
+name: "Modelos de Regressão para Dados de Contagem com o R"
+instructors: "Walmes Marques Zeviani, Eduardo Elias Ribeiro Jr & Cesar Augusto Taconeli"
+image: "../img/courses/MRDCr.png"
+description: |
+
+  O objetivo desse Curso foi apresentar diferentes modelos de regressão
+  para análise de dados de contagem, discutir suas principais
+  propriedades e ilustrar suas aplicações em dados reais por meio do
+  software R. Dentre os modelos considerados estão o modelo Poisson,
+  algumas extensões para acomodação de super (ou sub) dispersão
+  (Quasi-Poisson, COM-Poisson, Count-Gamma, Binomial-Nagativo), modelos
+  para dados inflacionados de zeros e com a inclusão de efeitos
+  aleatórios. Os materiais do Curso (slides, dados, scripts) estão
+  disponibilizados no pacote
+  [`MRDCr`](http://leg.ufpr.br/~walmes/pacotes/MRDCr_0.0-2.tar.gz) -
+  Modelos de Regressão Para Dados de Contagem. Os tutoriais estão
+  disponíveis na forma de
+  [*vignettes*](http://leg.ufpr.br/~walmes/pacotes/MRDCr-vignettes/).
+
+url: https://github.com/leg-ufpr/MRDCr
+date: "23 a 25 de Maio de 2016"
+place: "Salvador - Bahia"

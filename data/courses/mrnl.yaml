@@ -1,0 +1,19 @@
+weight: -201307
+name: "Modelos de Regressão Não Linear"
+instructors: "Walmes Marques Zeviani, Paulo Justiniano Ribeiro Jr & Wagner Hugo Bonat"
+image: "../img/courses/mrnl.png"
+description: |
+
+  Curso sobre modelos de regressão não linear oferecido na 58ª Reunião
+  da RBras e 15ª SEAGRO.  O curso abordou aspectos introdutórios,
+  inferência baseada na verossimilhança, reparametrizações e métodos
+  para inferência sobre funções dos parâmetros, medidas de diagnóstico,
+  emprego de regressão não linear na análise de experimentos, modelagem
+  da variância e modelos de efeitos de efeitos aleatórios. Meses depois,
+  uma versão mais curta do curso foi reofertada no [II
+  CONEST](http://leg.ufpr.br/~walmes/cursoR/conest2013/), 2013,
+  Curitiba.
+
+url: http://leg.ufpr.br/~walmes/cursoR/mrnl2013
+date: "22 a 26 de Julho de 2013"
+place: "Campina Grande - Paraíba"

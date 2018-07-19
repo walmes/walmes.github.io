@@ -1,0 +1,14 @@
+weight: -201610
+name: "Modelos de Regressão Linear e Não Linear"
+image: "../img/courses/regressao-mgest.png"
+description: |
+
+  Curso oferecido no Encontro Mineiro de Estatística (MGEst).  O Curso
+  considerou aspectos mais polêmicos em modelos de regressão linear:
+  análise de diagnóstico, seleção de variáveis. Além disso, foi feita
+  uma rápida motivação e aplicações de modelos não lineares e modelos
+  suaves (loess, splines, gam).
+
+url: http://leg.ufpr.br/~walmes/cursoR/mgest/
+date: "11 a 13 de Outubro de 2016"
+place: "Varginha - Minas Gerais"

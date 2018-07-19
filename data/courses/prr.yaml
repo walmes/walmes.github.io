@@ -1,0 +1,22 @@
+weight: -201605
+name: "Pesquisa Reproduzível com R"
+instructors: "Fernando de Pol Mayer & Walmes Marques Zeviani"
+image: "../img/courses/prr.png"
+description: |
+
+  Curso apresentado na 61ª Reunião da RBras que focou nas ferramentas
+  para análise estatística documentada, que permitem que cientistas
+  publiquem suas análises em um único documento que irá permitir que
+  outros cientistas executem a mesma análise e obtenham os mesmos
+  resultados. O objetivo é fornecer os conceitos e ferramentas por trás
+  da comunicação de análises de dados modernas, de maneira
+  reproduzível. Foi demonstrado como gerar relatórios dinâmicos com o R,
+  e de maneira mais aprofundada, como criar pacotes do R contendo dados,
+  análises e funções, com a intenção de facilitar a distribuição de
+  comunicações científicas. Para isso, foram utilizados alguns pacotes
+  modernos e auxiliares do R, como `knitr`, `rmarkdown`, `devtools`, e
+  `roxygen2`.
+
+url: http://cursos.leg.ufpr.br/prr/
+date: "24 e 25 de Maio de 2016"
+place: "Salvador - Bahia"
