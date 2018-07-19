@@ -1,3 +1,5 @@
+********
+
 ## Upcoming Talks, Courses and Activities
 
 <!--
@@ -15,13 +17,23 @@
 <ol>
 <li>Visualização de dados com ggplot2.
 <ul class="fa-ul">
-  <li><i class="fa fa-li fa-li fa-university"></i>Grupo de Estudos em Genética e Melhoramento de Plantas</li>
+  <li><i class="fa fa-li fa-play-circle"></i>Curso</li>
+  <li><i class="fa fa-li fa-li fa-university"></i>Núcleo de Estudos em Genética e Melhoramento de Plantas - UFLA</li>
   <li><i class="fa fa-li fa-li fa-map-marker"></i>Lavras/MG</li>
   <li><i class="fa fa-li fa-li fa-calendar"></i>07-09/Ago/2018</li>
 </ul>
 </li>
-<li>Palestra a definir e mesa redonda sobre Estatística Computacional.
+<li>Análise Exploratória de Dados.
 <ul class="fa-ul">
+  <li><i class="fa fa-li fa-play-circle"></i>Palestra</li>
+  <li><i class="fa fa-li fa-li fa-university"></i>Programa de Pós Graduação em Engenharia Florestal - UFPR</li>
+  <li><i class="fa fa-li fa-li fa-map-marker"></i>Curitiba/PR</li>
+  <li><i class="fa fa-li fa-li fa-calendar"></i>24/Out/2018 às 14h00</li>
+</ul>
+</li>
+<li>Títulos a definir.
+<ul class="fa-ul">
+  <li><i class="fa fa-li fa-play-circle"></i>Conferência e mesa redonda</li>
   <li><i class="fa fa-li fa-li fa-university"></i>IX SIGM - Simpósio Internacional em Genética e Melhoramento</li>
   <li><i class="fa fa-li fa-li fa-map-marker"></i>Viçosa/MG</li>
   <li><i class="fa fa-li fa-li fa-calendar"></i>24-25/Out/2018</li>
