@@ -1,0 +1,18 @@
+weight: -201802
+name: "Planejamento e Análise de Experimentos com R (playlist youtube)"
+image: "../img/courses/paer.png"
+description: |
+
+  Curso sobre análise de experimentos utilizando oferecido por
+  webconferência para os alunos do Departamento de Agroindústria,
+  Alimentos e Nutrição - Esalq/USP.  O curso aborda os principais
+  aspectos para realização de experimentos planejados e instrumenta a
+  análise de experimentos sob os principais delineamentos usando o
+  software R. Os vídeos são a gravação das aulas por Google Hangouts,
+  sem cortes ou qualquer edição.
+
+url: https://www.youtube.com/playlist?list=PLXaDAv_nBDLdjd_k3vgQezne2HRc4flB8
+date: "08 a 16 de Fevereiro de 2018"
+place: "Piracicaba - São Paulo (por webconferência)"
+homepage: "[walmes.github.io/paer](https://walmes.github.io/paer/index.html)"
+institution: "Departamento de Agroindústria, Alimentos e Nutrição - Esalq/USP"

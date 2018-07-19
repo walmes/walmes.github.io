@@ -30,11 +30,23 @@
 
             <ul class="fa-ul">
               {{ if .instructor }}
-              <li><i class="fa fa-li fa-user"></i> {{ $element.instructor }} </li>
+              <li><i class="fa fa-li fa-comment"></i> {{ $element.instructor }} </li>
               {{ end }}
 
               {{ if .instructors }}
-              <li><i class="fa fa-li fa-users"></i> {{ $element.instructors }} </li>
+              <li><i class="fa fa-li fa-comments"></i> {{ $element.instructors }} </li>
+              {{ end }}
+
+              {{ if .audience }}
+              <li><i class="fa fa-li fa-users"></i> {{ $element.audience }} </li>
+              {{ end }}
+
+              {{ if .institution }}
+              <li><i class="fa fa-li fa-university"></i> {{ $element.institution }} </li>
+              {{ end }}
+
+              {{ if .workload }}
+              <li><i class="fa fa-li fa-clock-o"></i> {{ $element.workload }} </li>
               {{ end }}
 
               {{ if .date }}
@@ -44,6 +56,11 @@
               {{ if .place }}
               <li><i class="fa fa-li fa-map-marker"></i> {{ $element.place }}</li>
               {{ end }}
+
+              {{ if .homepage }}
+              <li><i class="fa fa-li fa-external-link"></i> {{ $element.homepage | markdownify }}</li>
+              {{ end }}
+
             </ul>
 
             <p class="intro">{{ $element.description | markdownify }}</p>
