@@ -1,5 +1,12 @@
 #heading-breadcrumbs {
     background: url('../img/pattern-pixels.gif') center center repeat;
+    /* background: url('../img/pattern-circuit-1.jpg') center center repeat; */
+    /* background: url('../img/pattern-green-chess-2.png') center center repeat; */
+    /* background: url('../img/pattern-wood.jpg') center center repeat; */
+    /* background: url('../img/pattern-wall.jpg') center center repeat; */
+    /* background: url('../img/pattern-points.png') center center repeat; */
+    /* background: url('../img/pattern-pixels-blue.jpg') center center repeat; */
+    /* background: unset; */
     padding: 1px 0;
     margin-bottom: 40px;
 }
@@ -23,7 +30,30 @@ img.projects {
     margin: auto;
 }
 
+img.courses {
+    height: 240px;
+    max-width: 240px;
+    display: block;
+    margin: auto;
+}
+
 .box {
     background: unset;
     border: unset;
+}
+
+p.institution {
+    margin: -0.75em 0 10px;
+}
+
+#heading-breadcrumbs h1 {
+    color: #fff;
+    letter-spacing: 0em;
+}
+
+.navbar ul.nav > li > a {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0em;
 }
