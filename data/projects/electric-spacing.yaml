@@ -1,5 +1,10 @@
 weight: 4
 name: "electric-spacing"
 image: "../img/projects/electric-spacing.gif"
-description: "Smart operators for R using Emacs."
+description: |
+
+  An GNU Emacs minor-mode to automatically add spacing around operators
+  for R (ess-mode). This minor-mode automatically applies the convention
+  of using spaces around operators in R, it follows the R coding style.
+
 url: https://github.com/walmes/electric-spacing

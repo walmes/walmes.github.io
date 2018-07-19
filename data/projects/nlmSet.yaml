@@ -1,5 +1,13 @@
 weight: 4
 name: "nlmSet"
 image: "https://raw.githubusercontent.com/walmes/Tikz/master/src/gompertz.png"
-description: "Nonlinear regression models catalogue."
+description: |
+
+  Nonlinear regression models catalogue. This objective of this project
+  is develop a R package with a Shiny interface to document and explore
+  nonlinear regression models. The model curve can be manipulated using
+  sliders, so allowing the user select the most apropriate model for
+  applications.<br>**Team**: Augusto Buzzoni Calcanhoto, Willian Ramos &
+  Bruna Wundervald.
+
 url: https://github.com/leg-ufpr/nlmSet

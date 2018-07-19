@@ -1,5 +1,11 @@
 weight: 4
 name: "wzRfun"
 image: "../img/projects/wzRfun.png"
-description: "My package."
+description: |
+
+  This package contains functions that were developed for analysis and
+  representation of data in addition to other general-purpose tasks. The
+  package name has a very obvious motivation except for the fact that I
+  prefer to think about Rfun as *R is fun* and not *R functions*.
+
 url: https://github.com/walmes/wzRfun
