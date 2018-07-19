@@ -23,27 +23,6 @@ ul.ul-edu li .description p.institution {
     text-align: left;
 }
 
-img.projects {
-    height: 240px;
-    max-width: 300px;
-    display: block;
-    margin: auto;
-}
-
-img.courses {
-    max-width:100%;
-    max-height:100%;
-    display: block;
-    margin: auto;
-}
-
-img.talks {
-    max-width:100%;
-    max-height:100%;
-    display: block;
-    margin: auto;
-}
-
 .box {
     background: unset;
     border: unset;
@@ -65,6 +44,8 @@ p.institution {
     letter-spacing: 0em;
 }
 
+/*---------------------------------------------------------------------- */
+
 ul:not([class]) > li {
     list-style: none;
 }
@@ -74,4 +55,40 @@ ul:not([class]) > li::before {
     margin-left: -1em;
     position: absolute;
     color: var(--one-color);
+}
+
+/*---------------------------------------------------------------------- */
+
+img.projects {
+    height: 240px;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+img.courses {
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    margin: auto;
+}
+
+img.talks {
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    margin: auto;
+}
+
+img:hover.shadow {
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+img:hover.zoomout {
+    -webkit-transform: scale(0.95, 0.95);
+    -ms-transform: scale(0.95, 0.95);
+    -o-transform: scale(0.95, 0.95);
+    transform: scale(0.95, 0.95);
 }
