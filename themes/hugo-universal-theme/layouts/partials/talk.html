@@ -1,0 +1,70 @@
+<div class="container" id="talk">
+  {{ range $index, $element := sort .Site.Data.talks "weight" }}
+
+  <div class="row">
+
+    <div class="col-md-12" id="blog-listing-medium">
+
+      <section class="post">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image">
+
+              {{ if .url }}
+              <a href="{{ .url }}" target="_blank">
+                <img class="talks" src="{{ .image }}" alt="{{ .title }}" class="img-responsive" />
+              </a>
+              {{ else }}
+              <img class="talks" src="{{ .image }}" alt="{{ .title }}" class="img-responsive" />
+              {{ end }}
+
+            </div>
+          </div>
+          <div class="col-md-8">
+
+            {{ if .url }}
+            <h3><a href="{{ .url }}">{{ $element.title }}</a></h3>
+            {{ else }}
+            <h3>{{ $element.title }}</h3>
+            {{ end }}
+
+            {{ if .subtitle }}
+            <h4 style="margin-top: -1em;">{{ $element.subtitle }}</h4>
+            {{ end }}
+
+            <ul class="fa-ul">
+              {{ if .instructor }}
+              <li><i class="fa fa-li fa-comment"></i> {{ $element.instructor }} </li>
+              {{ end }}
+
+              {{ if .instructors }}
+              <li><i class="fa fa-li fa-comments"></i> {{ $element.instructors }} </li>
+              {{ end }}
+
+              {{ if .audience }}
+              <li><i class="fa fa-li fa-users"></i> {{ $element.audience }} </li>
+              {{ end }}
+
+              {{ if .date }}
+              <li><i class="fa fa-li fa-calendar-o"></i> {{ $element.date }}</li>
+              {{ end }}
+
+              {{ if .place }}
+              <li><i class="fa fa-li fa-map-marker"></i> {{ $element.place }}</li>
+              {{ end }}
+            </ul>
+
+            <p class="intro">{{ $element.description | markdownify }}</p>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </div>
+  {{ end }}
+
+  {{ .Content }}
+
+</div>

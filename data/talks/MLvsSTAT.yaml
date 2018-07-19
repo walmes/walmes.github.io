@@ -1,0 +1,25 @@
+weight: -20180424
+title: "Machine Leaning e Estatística"
+subtitle: "Rivais, redundantes ou complementares?"
+image: "../img/talks/MLvsSTAT.png"
+description: |
+
+  No passado, todas as profissões e negócios correram para incorporar o
+  uso dos computadores. Hoje o mesmo acontece com os dados. Projetos de
+  data science ou big data são intensivos quanto o consumo de
+  dados. Esse cenário popularizou o uso de Machine Learning e também de
+  Estatística para solução de problemas envolvendo dados. Com isso,
+  comparações entre Machine Learning são realizadas com frequência mas,
+  no geral, as declarações são tendenciosas ou sem estabelecimento de
+  critérios claros.  Um entendimento incorreto das diferenças fatuais ou
+  comunalidades pode levar rapidamente a falsos julgamentos, péssimas
+  escolhas e conclusões ruins. Nesta conferência são abordadas as ideias
+  fundamentais de Machine Learning e Estatística voltados para análise
+  de dados bem como são apresentados e delimitados os território dos
+  diferentes tipos de data analytics e como Machine Learning e
+  Estatística estão localizados nesse espaço.
+
+url: http://leg.ufpr.br/~walmes/talks/2018-04-24-meetup-ds-MLvsSTAT
+audience: "MeetUp de Data Science Curitiba"
+place: "MadeiraMadeira, Curitiba/PR"
+date: "24 de Abril de 2018"

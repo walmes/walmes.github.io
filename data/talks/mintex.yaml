@@ -1,0 +1,29 @@
+weight: -20180206
+title: "Mineração de texto"
+subtitle: "Conceitos e aplicações"
+image: "../img/talks/mintext.png"
+description: |
+
+  Hoje a informação em forma de texto não é apenas abundante mas é
+  facilmente acessível.  Estima-se que 80% da informação disponível no
+  mundo está armazenada na forma de texto livre.  *Text mining* e *text
+  analytics* são termos amplos que descrevem tecnologias para processar
+  e analisar texto semiestruturado ou não estruturado.  Na perspectiva
+  de MINER et al. (2012), essas tecnologias podem ser agrupadas em sete
+  áreas práticas.  Tais tecnologias lidam com uma quantidade massiva de
+  dados não estruturados e requerem alto poder de processamento
+  computacional. Dessa forma, para aplicações de negócios, a mineração
+  de texto deve ser baseada em ecossistemas de big data.  Por outro
+  lado, os problemas de mineração de texto são sempre peculiares em
+  algum sentido, apesar das divisões conceituais ou didáticas.  Dessa
+  forma, decidir quais e como aplicar os recursos dispoíveis pode não
+  ser uma tarefa simples. Nesta apresentação serão apresentados os
+  principais conceitos e aplicações de mineração de texto comuns em data
+  science.  Serão apontados recursos computacionais voltados para
+  processamento de texto e será apresentado um estudo de caso
+  considerando a linguagem R.
+
+url: http://leg.ufpr.br/~walmes/talks/2018-02-06-meetup-ds-mintext.pdf
+audience: "MeetUp de Data Science Curitiba"
+place: "Jupter"
+date: "06 de Fevereiro de 2018"

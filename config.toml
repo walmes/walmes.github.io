@@ -47,11 +47,11 @@ paginate = 10
     url  = "/teaching/"
     weight = 2
 
-# [[menu.main]]
-#     parent = "Teaching"
-#     name = "Talks"
-#     url  = "/talks/"
-#     weight = 3
+[[menu.main]]
+    parent = "Teaching"
+    name = "Talks"
+    url  = "/talks/"
+    weight = 3
 
 [[menu.main]]
     name = "Publications"
