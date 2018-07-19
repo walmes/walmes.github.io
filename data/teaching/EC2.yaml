@@ -1,0 +1,18 @@
+weight: 1
+name: "Estatística Computacional II (CE 089)"
+instructor: "Walmes Zeviani"
+image: "../img/teaching/EC2.png"
+description: |
+
+   * Geração de números aleatórios.
+   * Métodos computacionalmente intensivos.
+     * Testes de aleatorização.
+     * Métodos Jackknife.
+     * Métodos Bootstrap.
+     * Métodos Monte Carlo.
+   * Planejamento e execução de estudos de simulação.
+   * Métodos de otimização.
+
+url: http://leg.ufpr.br/~walmes/ensino/EC2
+workload: "60 hrs"
+semester: "Curso de Estatística - 6º semestre"

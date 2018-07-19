@@ -1,0 +1,21 @@
+weight: 5
+name: "Mineração de Texto"
+instructor: "Walmes Zeviani"
+image: "../img/teaching/mintex.png"
+description: |
+
+  * Web-scraping.
+    * Documentos XML/HTML/JSON.
+    * Linguagem Xpath.
+    * Protocolos de conexão.
+    * Automação de web crawlers.
+  * Mineração de texto.
+    * Preprocessamento de texto.
+    * Medidas de ponderação.
+    * Medidas de similaridade, agrupamento e classificação.
+    * Análise de sentimentos.
+    * Análise de tópicos.
+
+url: http://leg.ufpr.br/~walmes/ensino/mintex
+workload: "60 hrs"
+semester: "Curso de Estatística - Optativa"

@@ -1,0 +1,19 @@
+weight: 3
+name: "Machine Learning"
+instructors: "Walmes Zeviani & Eduardo Vargas Ferreira"
+image: "../img/teaching/ML.png"
+description: |
+
+  * Métodos de reamostragem.
+  * Métodos de otimização.
+  * Regularização.
+  *  Aprendizado supervisionado.
+      * Métodos baseados em árvores de decisão.
+      * Bayes ingênuo e análise discriminante.
+      * Máquinas de vetores de suporte.
+      * Redes neurais artificiais.
+  * Aprendizado não supervisionado.
+
+url: http://leg.ufpr.br/~walmes/ensino/ML
+workload: "60 hrs"
+semester: "Curso de Estatística - Optativa"

@@ -1,0 +1,16 @@
+weight: 2
+name: "Controle de Processos Industriais (CE 074)"
+instructor: "Walmes Zeviani & Fernando de Pol Mayer"
+image: "../img/teaching/CPI.png"
+description: |
+
+  * Revisão de Planejamento de Experimentos I.
+  * Introdução aos experimentos fatoriais.
+  * Planejamentos fatoriais 2$^k$ e 3$^k$.
+  * Experimentos com confundimento de termos com blocos.
+  * Experimentos fatoriais 2$^k$ e 3$^k$ fracionados.
+  * Metodologia de superfície de resposta.
+
+url: http://leg.ufpr.br/~fernandomayer/aulas/ce074/
+workload: "60 hrs"
+semester: "Curso de Estatística - 6º semestre"

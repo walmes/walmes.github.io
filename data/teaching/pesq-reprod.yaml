@@ -1,0 +1,15 @@
+weight: 5
+name: "Pesquisa Reproduzível"
+instructor: "Walmes Zeviani"
+image: "../img/teaching/pesq-reprod.png"
+description: |
+
+  * Geração de documentos dinâmicos.
+  * Construção ágil de sites.
+  * Visualização interativa de dados.
+  * Dashboards e uso de interfaces gráficas.
+  * Desnvolvimento de pacotes R.
+
+url: http://leg.ufpr.br/~walmes/ensino/pesq-reprod
+workload: "60 hrs"
+semester: "Curso de Estatística - Optativa"
