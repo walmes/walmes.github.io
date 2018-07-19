@@ -2,6 +2,7 @@ weight: 4
 name: "mcglm"
 image: "../img/projects/mcglm.png"
 description: |
+
   Multivariate covariance generalized linear models. `mcglm` fits
   multivariate covariance generalized linear models. It allows using a
   different linear predictor for each response variable of a
@@ -11,4 +12,5 @@ description: |
   relevant feature is that many covariance structures can be used to
   model the relations among variables.  <br>**Project owner**: Wagner
   Hugo Bonat.
+
 url: https://github.com/wbonat/mcglm

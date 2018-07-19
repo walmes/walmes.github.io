@@ -1,10 +1,12 @@
 weight: 2
 name: "RDASC"
-image: "https://raw.githubusercontent.com/walmes/RDASC/master/vignettes/config/logo.png"
+image: "../img/projects/RDASC.png"
 description: |
+
   *Reproducible Data Analysis from Scientitic
   Collaborations*. This packages contains documented datasets and
   reproducible data analysis from collaborations with researchers of
   many areas. <br>**Main collaborators**: Larissa May de Mio, Paulo
   Lichtemberg.
+
 url: http://leg.ufpr.br/~walmes/pacotes/RDASC/

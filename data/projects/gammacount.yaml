@@ -1,10 +1,12 @@
 weight: 4
 name: "gammacount"
-image: "https://raw.githubusercontent.com/JrEduardo/gammacount/master/gammacount.png"
+image: "../img/projects/gammacount.png"
 description: |
-  A package (under development) for modelling dispersed
-  count data. It contains functions to generate random numbers from
-  the Gamma Count distribuition. The package also will provide
-  functions to fit regression models.<br>**Project owner**: Eduardo
-  Elias Ribeiro Jr.
+
+  A package for modelling dispersed count data with the Gamma-Count
+  distribution. It contains functions to generate random numbers from
+  the Gamma Count distribuition and also will provide functions
+  to fit regression models.<br>**Project owner**: Eduardo Elias Ribeiro
+  Jr.
+
 url: https://github.com/jreduardo/gammacount

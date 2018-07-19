@@ -1,6 +1,6 @@
 weight: 4
 name: "nlmSet"
-image: "https://raw.githubusercontent.com/walmes/Tikz/master/src/gompertz.png"
+image: "../img/projects/nlmSet.png"
 description: |
 
   Nonlinear regression models catalogue. This objective of this project

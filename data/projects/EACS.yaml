@@ -1,9 +1,11 @@
 weight: 1
 name: "EACS"
-image: "https://raw.githubusercontent.com/walmes/EACS/master/vignettes/img/logo.png"
+image: "../img/projects/EACS.png"
 description: |
+
   *Estatística Aplicada à Ciência do Solo*. This package
   contains documented datasets and reproducible data analysis from
   research in Soil Science. <br>**Main collaborators**: Milson Evaldo
   Serafim, Fábio Benedito Ono, among others.
+
 url: http://leg.ufpr.br/~walmes/pacotes/EACS/
