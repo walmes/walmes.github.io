@@ -1,9 +1,5 @@
 +++
-title = "Projects"
+title = "Teaching"
+id = "teaching"
 +++
 
-My projects
-
-  * askkjdlakd
-  * alksjdla
-  * skdslkdfj
