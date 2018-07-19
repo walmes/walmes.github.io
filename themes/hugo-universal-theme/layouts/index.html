@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "top.html" . }}
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "carousel.html" . }}
+
+        <!-- Minha biografia que não terá mudanças constantes. -->
+        {{ partial "bio.html" . }}
+
+        <!-- Editar arquivo em ./content/_index.md. -->
+        <!-- <div style="max-width: 800px; padding: 1em; margin: auto; text-align: justify;"> -->
+        <div class="container">
+          {{ .Content }}
+        </div>
+
+        {{ partial "features.html" . }}
+
+        {{ partial "testimonials.html" . }}
+
+        {{ partial "see_more.html" . }}
+
+        {{ partial "recent_posts.html" . }}
+
+        {{ partial "clients.html" . }}
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
