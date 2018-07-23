@@ -105,7 +105,7 @@ paginate = 10
     # googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "green"
+    style = "orange"
 
     custom_css = ["./css/custom.css"]
 
