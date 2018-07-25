@@ -1,10 +1,16 @@
 :root{
   /* var(--wz-color1) */
-  --wz-color1: #ff7b00;
+  /* --wz-color1: #ff7b00;
   --wz-color2: #f67700;
   --wz-color3: #c5511c;
-  --wz-color4: #ff4800;
-  --wz-color5: #ff5e00;
+  --wz-color4: #ff8800;
+  --wz-color5: #ff3c00; */
+  --wz-color1: rgb(255, 128, 0);
+  --wz-color5: rgb(255, 80, 0);
+  --wz-color4: rgb(255, 200, 0);
+  --wz-color2: #4ef600;
+  --wz-color3: #1c27c5;
+  --wz-color6: #696969;
 }
 
 .clearfix:before,
@@ -108,7 +114,7 @@ div.section {
 .heading h4,
 .heading h5 {
   display: inline-block;
-  border-bottom: solid 5px var(--wz-color5);
+  border-bottom: solid 5px var(--wz-color1);
   line-height: 1.1;
   margin-bottom: 0;
   padding-bottom: 10px;
@@ -326,7 +332,7 @@ ul.list-style-none {
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
-  border-top: solid 5px var(--wz-color4);
+  border-top: solid 5px var(--wz-color1);
 }
 @media (max-width: 768px) {
   .navbar ul.nav > li.active > a,
@@ -365,7 +371,7 @@ ul.list-style-none {
   padding: 4px 0;
 }
 .navbar ul.dropdown-menu li a {
-  position: relative;
+  /* position: relative; */
   color: #999999;
   font-size: 12px;
   display: block;
@@ -375,9 +381,9 @@ ul.list-style-none {
   left: 0;
 }
 .navbar ul.dropdown-menu li a:hover {
-  color: var(--wz-color5);
+  color: #ffffff;
   text-decoration: none;
-  background: none;
+  background: var(--wz-color1);
   left: 2px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -554,9 +560,9 @@ body.boxed .navbar-affixed-top.affix {
   border-radius: 0;
 }
 .btn-template-main {
-  color: var(--wz-color5);
+  color: var(--wz-color1);
   background-color: #ffffff;
-  border-color: var(--wz-color5);
+  border-color: var(--wz-color1);
 }
 .btn-template-main:hover,
 .btn-template-main:focus,
@@ -711,7 +717,7 @@ fieldset[disabled] .btn-template-transparent-black.active {
 .btn-template-primary.active,
 .open > .dropdown-toggle.btn-template-primary {
   color: #ffffff;
-  background-color: var(--wz-color4)a;
+  background-color: var(--wz-color4);
   border-color: var(--wz-color3);
 }
 .btn-template-primary:active,
@@ -1126,7 +1132,7 @@ fieldset[disabled] .btn-template-primary.active {
 .owl-theme .owl-controls .owl-page.active span,
 .owl-carousel .owl-controls.clickable .owl-page:hover span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-  background: var(--wz-color5);
+  background: var(--wz-color1);
 }
 .owl-carousel .owl-controls .owl-buttons,
 .owl-theme .owl-controls .owl-buttons {
@@ -1443,8 +1449,8 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 40px;
 }
 .box-simple .icon {
-  color: var(--wz-color5);
-  border-color: var(--wz-color5);
+  color: var(--wz-color1);
+  border-color: var(--wz-color1);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -1459,7 +1465,7 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 .box-simple h3 a {
-  color: #555555;
+  color: var(--wz-color1);
 }
 .box-simple p {
   color: #999999;
@@ -3166,12 +3172,12 @@ body {
   color: #555555;
 }
 a {
-  color: var(--wz-color5);
+  color: var(--wz-color1);
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: var(--wz-color1);
+  color: var(--wz-color5);
   text-decoration: underline;
 }
 a:focus {
@@ -3304,7 +3310,7 @@ label {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: var(--wz-color5);
+  color: var(--wz-color1);
   background-color: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -3312,7 +3318,7 @@ label {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: var(--wz-color5);
+  color: var(--wz-color1);
   background-color: #f4cccc;
   border-color: #dddddd;
 }
@@ -3324,8 +3330,8 @@ label {
 .pagination > .active > span:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: var(--wz-color5);
-  border-color: var(--wz-color5);
+  background-color: var(--wz-color1);
+  border-color: var(--wz-color1);
 }
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
@@ -3374,7 +3380,7 @@ h6,
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 900;
   line-height: 1.1;
-  color: #333333;
+  color: var(--wz-color6);
 }
 h1,
 .h1,
