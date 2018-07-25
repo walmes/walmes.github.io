@@ -25,37 +25,53 @@ Please, visit my profile at any of the services below:
 
 <div class="col-md-3">
 <div class="box-simple">
+<a href="http://lattes.cnpq.br/4410617539281650">
 <div class="icon">
 <i class="ai ai-2x ai-lattes"></i>
 </div>
-<h3><a href="http://lattes.cnpq.br/4410617539281650">Currículo Lattes</a></h3>
+<h3>
+Currículo Lattes
+</h3>
+</a>
 </div>
 </div>
 
 <div class="col-md-3">
 <div class="box-simple">
+<a href="https://www.researchgate.net/profile/Walmes_Zeviani2">
 <div class="icon">
 <i class="ai ai-2x ai-researchgate"></i>
 </div>
-<h3><a href="https://www.researchgate.net/profile/Walmes_Zeviani2">Research Gate</a></h3>
+<h3>
+Research Gate
+</h3>
+</a>
 </div>
 </div>
 
 <div class="col-md-3">
 <div class="box-simple">
+<a href="https://scholar.google.com.br/citations?user=pb-91n8AAAAJ">
 <div class="icon">
 <i class="ai ai-2x ai-google-scholar"></i>
 </div>
-<h3><a href="https://scholar.google.com.br/citations?user=pb-91n8AAAAJ">Google Scholar</a></h3>
+<h3>
+Google Scholar
+</h3>
+</a>
 </div>
 </div>
 
 <div class="col-md-3">
 <div class="box-simple">
+<a href="https://www.mendeley.com/profiles/walmes-zeviani1/">
 <div class="icon">
 <i class="ai ai-2x ai-mendeley"></i>
 </div>
-<h3><a href="https://www.mendeley.com/profiles/walmes-zeviani1/">Mendeley</a></h3>
+<h3>
+Mendeley
+</h3>
+</a>
 </div>
 </div>
 
