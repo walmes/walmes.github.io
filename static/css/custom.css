@@ -6,7 +6,7 @@ code {
 #teaching,
 #project,
 #talk {
-    margin-bottom: 10em; 
+    margin-bottom: 10em;
 }
 
 i.off {
@@ -14,7 +14,7 @@ i.off {
 }
 
 table.skills {
-    margin-left: 0.5em; 
+    margin-left: 0.5em;
 }
 
 table.skills td {
@@ -22,6 +22,11 @@ table.skills td {
 }
 
 table.skills tr:hover {
+    color: var(--wz-color1);
+}
+
+ol.upcomings li:hover
+/* ol.upcomings ul li:hover */ {
     color: var(--wz-color1);
 }
 
