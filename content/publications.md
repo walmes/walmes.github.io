@@ -11,7 +11,6 @@ title = "Publications"
   3. Zeviani, W. M., Silva, C. A., Carneiro, W. J. de O., & Muniz, J. A. (2012). Modelos não lineares para a liberação de potássio de estercos animais em latossolos. **Ciência Rural**, 42(10**, 1789–1796. https://doi.org/10.1590/s0103-84782012001000012
 
 ----------------------------------------------------------------------
-
 ## Complete CV
 
 Please, visit my profile at any of the services below:
@@ -80,7 +79,6 @@ Mendeley
 </div>
 
 ----------------------------------------------------------------------
-
 ## Doctor Thesis
 
 <div style="float: right;">
@@ -203,7 +201,6 @@ Banca de Defesa (Aprovada em 13 de maio de 2013):
   * Prof. Dr. Augusto Ramalho de Morais - UFLA
 
 ----------------------------------------------------------------------
-
 ## Master Thesis
 
 <div style="float: right;">
