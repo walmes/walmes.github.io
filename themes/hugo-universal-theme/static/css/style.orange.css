@@ -1,15 +1,9 @@
 :root{
-  /* var(--wz-color1) */
-  /* --wz-color1: #ff7b00;
-  --wz-color2: #f67700;
-  --wz-color3: #c5511c;
-  --wz-color4: #ff8800;
-  --wz-color5: #ff3c00; */
   --wz-color1: rgb(255, 128, 0);
-  --wz-color5: rgb(255, 80, 0);
+  --wz-color2: rgb(255, 128, 0);
+  --wz-color3: rgb(255, 128, 0);
   --wz-color4: rgb(255, 200, 0);
-  --wz-color2: #4ef600;
-  --wz-color3: #1c27c5;
+  --wz-color5: rgb(255, 80, 0);
   --wz-color6: #696969;
 }
 

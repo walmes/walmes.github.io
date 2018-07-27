@@ -1,5 +1,27 @@
-code {
-    color: inherit;
+#heading-breadcrumbs h1 {
+    color: #ffffff;
+    letter-spacing: 0em;
+}
+
+#heading-breadcrumbs {
+    background: url('../img/pattern-pixels.png') center center repeat;
+    /* background: #38a7bb; */
+    /* background-color: var(--wz-color1); */
+    /* background-position-x: 0%; */
+    /* background-position-y: 0%; */
+    /* background-repeat: repeat; */
+    /* background-attachment: scroll; */
+    /* background-image: none; */
+    /* background-size: auto auto; */
+    /* background-origin: padding-box; */
+    /* background-clip: border-box; */
+    /* opacity: 1; */
+    padding: 1px 0;
+    margin-bottom: 40px;
+}
+
+#footer {
+    margin-top: 2em;
 }
 
 #course,
@@ -7,6 +29,10 @@ code {
 #project,
 #talk {
     margin-bottom: 10em;
+}
+
+code {
+    color: inherit;
 }
 
 i.off {
@@ -21,32 +47,22 @@ table.skills td {
     padding: 0px 0.5ex;
 }
 
+/* ul.ul-edu i:hover, */
+/* ol.upcomings > li:hover, */
+/* table.skills td:nth-child(1):hover */
+ul.ul-edu li:hover,
+ul.ul-interests li:hover,
 table.skills tr:hover {
     color: var(--wz-color1);
 }
 
-ol.upcomings li:hover
-/* ol.upcomings ul li:hover */ {
-    color: var(--wz-color1);
-}
-
-#heading-breadcrumbs {
-    background: url('../img/pattern-pixels.gif') center center repeat;
-    padding: 1px 0;
-    margin-bottom: 40px;
-}
-
-#footer {
-    margin-top: 2em;
+.ul-interests, .ul-edu {
+    text-align: left;
 }
 
 /* ul.ul-edu li .description p.institution {
     font-size: 90%;
 } */
-
-.ul-interests, .ul-edu {
-    text-align: left;
-}
 
 .box {
     background: unset;
@@ -57,13 +73,16 @@ p.institution {
     margin: -0.75em 0 10px;
 }
 
-#heading-breadcrumbs h1 {
-    color: #ffffff;
-    letter-spacing: 0em;
+.box-simple .icon,
+.box-simple h3 {
+    color: var(--wz-color6);
+    border-color: var(--wz-color6);
 }
 
-.box-simple h3 {
+.box-simple:hover .icon,
+.box-simple:hover h3 {
     color: var(--wz-color1);
+    border-color: var(--wz-color1);
 }
 
 .text-uppercase,
@@ -73,7 +92,7 @@ p.institution {
 .heading h3,
 .heading h4,
 .heading h5 {
-   letter-spacing: 0em;
+    letter-spacing: 0em;
 }
 
 .navbar ul.nav > li > a {
@@ -85,15 +104,17 @@ p.institution {
 
 /*---------------------------------------------------------------------- */
 
-ul:not([class]) > li {
+ul:not([class]) > li,
+ul.ul-interests > li {
     list-style: none;
 }
 
-ul:not([class]) > li::before {
+ul:not([class]) > li::before,
+ul.ul-interests > li::before {
     content: '\25B8';
     margin-left: -1em;
     position: absolute;
-    color: var(--one-color);
+    /* color: var(--wz-color1); */
 }
 
 /*---------------------------------------------------------------------- */
@@ -120,9 +141,9 @@ img.talks {
 }
 
 img:hover.shadow {
-    -moz-box-shadow: 1px 1px 5px #999;
-    -webkit-box-shadow: 1px 1px 5px #999;
-    box-shadow: 1px 1px 5px #999;
+    -moz-box-shadow: 1px 1px 5px #999999;
+    -webkit-box-shadow: 1px 1px 5px #999999;
+    box-shadow: 1px 1px 5px #999999;
 }
 
 img:hover.zoomout {
