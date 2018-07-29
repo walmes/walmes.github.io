@@ -7,36 +7,40 @@
 
     <div id="all">
 
-        <header>
+      <header>
 
-          {{ partial "top.html" . }}
+        {{ partial "top.html" . }}
 
-          {{ partial "nav.html" . }}
+        {{ partial "nav.html" . }}
 
-        </header>
+      </header>
 
-        {{ partial "carousel.html" . }}
+      {{ partial "carousel.html" . }}
 
-        <!-- Minha biografia que não terá mudanças constantes. -->
-        {{ partial "bio.html" . }}
-
-        <!-- Editar arquivo em ./content/_index.md. -->
-        <!-- <div style="max-width: 800px; padding: 1em; margin: auto; text-align: justify;"> -->
-        <div class="container">
+      <!-- Biography part of the homepage. -->
+      <!-- See: https://github.com/gohugoio/hugo/issues/330#issuecomment-154045252 -->
+      {{ range .Data.Pages }}
+        {{ if (eq .Type "bio") }}
           {{ .Content }}
-        </div>
+        {{ end }}
+      {{ end }}
 
-        {{ partial "features.html" . }}
+      <!-- Edit file ./content/{_index.md, index.html}. -->
+      <div class="container">
+        {{ .Content }}
+      </div>
 
-        {{ partial "testimonials.html" . }}
+      {{ partial "features.html" . }}
 
-        {{ partial "see_more.html" . }}
+      {{ partial "testimonials.html" . }}
 
-        {{ partial "recent_posts.html" . }}
+      {{ partial "see_more.html" . }}
 
-        {{ partial "clients.html" . }}
+      {{ partial "recent_posts.html" . }}
 
-        {{ partial "footer.html" . }}
+      {{ partial "clients.html" . }}
+
+      {{ partial "footer.html" . }}
 
     </div>
     <!-- /#all -->
