@@ -42,7 +42,7 @@ paginate = 10
 
 [[menu.main]]
     parent = "Teaching"
-    name = "Subjects"
+    name = "Classes"
     # identifier = "teaching"
     url  = "/teaching/"
     weight = 2
