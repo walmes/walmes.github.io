@@ -1,8 +1,9 @@
 #!/bin/sh
 
-HOST=leg.ufpr.br
-DIR=/home/walmes/public_html/home
-
-~/bin/hugo && rsync -avz public/ ${USER}@${HOST}:${DIR}
+~/bin/hugo && rsync -avzp \
+                    ./public/ \
+                    --progress \
+                    --rsh="ssh -p$PATAXOP" \
+                    "$PATAXO:/home/walmes/public_html/home"
 
 exit 0
