@@ -102,6 +102,21 @@ p.institution {
     letter-spacing: 0em;
 }
 
+.nav-tabs {
+    border-bottom: 1px solid #DDD;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border: 1px solid #DDD;
+    border-bottom-color: transparent;
+}
+
+.tab-content {
+    border: unset;
+}
+
 /*---------------------------------------------------------------------- */
 
 ul:not([class]) > li,
