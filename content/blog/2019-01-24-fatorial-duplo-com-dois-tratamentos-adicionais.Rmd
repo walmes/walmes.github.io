@@ -1,0 +1,60 @@
+---
+title: "Fatorial duplo com dois tratamentos adicionais"
+author: "Walmes Zeviani"
+date: "2019-01-24"
+slug: fatorial-duplo-com-dois-tratamentos-adicionais
+categories: [análise, anova]
+tags: [lm, aov]
+---
+
+# A estrutura experimental
+
+O experimentos fatoriais são aqueles nos quais dois ou mais fatores são
+estudados simultaneamente.  No entanto, muitos pesquisadores incluem
+tratamentos adicionais no experimento que são, na maioria das vezes,
+testemunhas (controle) ou tratamentos padrão.  Isso gera um experimento
+fatorial com estrutura irregular conhecido por ensaio fatorial com
+tratamentos adicionais.  São comuns os ensaios fatoriais com um ou dois
+tratamentos adicionais.
+
+# Tabulação dos dados
+
+A forma mais simples de tabular os dados é a seguinte. Assumindo que é
+um fatorial duplo, na coluna de cada um dos fatores use um prefixo, por
+exemplo, `testemunha_*` (ou qualquer outro, obviamente) para representar
+os tratamentos adicionais.  A tabela abaixo mostra a estrutura na qual
+serão armazenados os dados contendo apenas a colunas dos dois fatores.
+
+```{r}
+da <- expand.grid(fator1 = c("A", "B"),
+                  fator2 = c("K", "L", "M"),
+                  KEEP.OUT.ATTRS = FALSE)
+u <- c("T1", "T2")
+da <- rbind(da, data.frame(fator1 = u, fator2 = u))
+da
+
+# Níveis dos fatores.
+summary(da)
+```
+
+*IMPORTANTE*: os tratamentos adicionais são os últimos níveis de ambos
+os fatores.  Caso não sejam na sua análise, reordene os níveis dos
+fatores para tal. Isso irá facilitar a análise.
+
+```{r, include = FALSE}
+u <- "http://www.leg.ufpr.br/~walmes/data/zimmermann_fusarium.txt"
+da <- read.table(file = u, header = TRUE, sep = "\t")
+str(da)
+
+da
+
+xtabs(~fungicida + aplicacao, data = da)
+```
+
+# Análise exploratória
+
+# Análise de variância
+
+# Contrastes
+
+Texto qualquer.
