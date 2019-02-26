@@ -167,3 +167,37 @@ img:hover.zoomout {
     -o-transform: scale(0.95, 0.95);
     transform: scale(0.95, 0.95);
 }
+
+/*---------------------------------------------------------------------- */
+
+.btn {
+    padding: 1px 5px;
+}
+
+.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus {
+    color: white;
+    background-color: var(--wz-color1);
+    border-color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--wz-color6);
+    border-color: #fff;
+    font-size: 80%;
+}
+
+.btn {
+    letter-spacing: 0em;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.card-body {
+    margin-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+/*---------------------------------------------------------------------- */
