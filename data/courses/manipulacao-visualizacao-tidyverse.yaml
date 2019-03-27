@@ -1,0 +1,24 @@
+weight: -201903
+name: "Manipulação e Visualização de Dados"
+subtitle: "A abordagem `tidyverse`"
+image: "../img/courses/manipulacao-visualizacao-tidyverse.png"
+description: |
+
+  A maior parte do esforço na análise de dados está na manipulação dos
+  dados: leitura, preparo, higienização, imputação, construção, seleção,
+  agregação, síntese e visualização. O ambiente R como linguagem de
+  programação para computação estatística sempre teve recursos para
+  manipulação de dados. A recente abordagem `tidyverse`, no entanto, se
+  baseia em uma gramática clara para a manipulação de dados, o que reduz
+  o tempo de confecção e entendimento de instruções de código,
+  tornando-o mais portável e reproduzível. Em muito aspectos, pode
+  inclusive ter melhor performance computacional. Nesse minicurso, serão
+  abordados os elementos da abordagem `tidyverse`, seus principais
+  recursos para manipulação e visualização de dados. Exemplos baseados
+  em conjuntos de dados reais e scripts R serão disponibilizados.
+
+url: http://leg.ufpr.br/~walmes/cursoR/data-vis/
+homepage: "[leg.ufpr.br/~walmes/cursoR/data-vis/](http://leg.ufpr.br/~walmes/cursoR/data-vis/)"
+date: "18 a 21 de Março de 2019"
+place: "Viçosa/MG"
+institution: "Grupo de Estudos em Genética e Melhoramento de Plantas - UFV"

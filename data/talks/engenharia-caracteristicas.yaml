@@ -1,0 +1,24 @@
+weight: -20190315
+title: "Engenharia de características"
+subtitle: "Novas perspectivas para uso dos dados"
+image: "../img/talks/engenharia-caracteristicas.png"
+description: |
+
+  Grande parte do esforço e do sucesso em data science, tanto em
+  modelagem estatística quanto em machine learning, depende de uma
+  adequada representação das características. A engenharia de
+  características é um processo que depende principalmente da habilidade
+  do cientista de dados em identificar, curar, construir e descobrir
+  características dos dados relevantes para interpretação e/ou modelagem
+  preditiva. Nessa palestra serão vistas as principais etapas dentro do
+  processo de engenharia de características, desde a inspeção inicial,
+  passando por questões de visualização, transformação e além. Com tais
+  noções, o cientista de dados terá a habilidade de conhecer novas
+  perspectivas sobre os dados, aprimorando o conhecimento trazido por
+  estes e aumentando adequação dos métodos de análise para alcançar
+  melhores resultados.
+
+url: http://leg.ufpr.br/~walmes/talks/engenharia-caracteristicas.pdf
+audience: "Workshop em Data Science · Departamento de Estatística - UFLA"
+place: "Lavras/MG"
+date: "15/Mar/2019"
