@@ -1,0 +1,24 @@
+weight: -20190403
+title: "Visualização de dados"
+subtitle: "História e fundamentos"
+instructor: "Walmes Zeviani (parte 2, 1:33:33)"
+date: "03 de Abril de 2019 · 16h00"
+videourl: https://www.youtube.com/embed/uEt6wAO3auY?start=5613
+description: |
+
+  A visualização de dados permite rápida extração de insights para
+  problemas baseados em dados.  O conhecimento dos princípios de
+  visualização gráfica e o domínio de recursos computacionais para
+  elaboração ágil, interativa e reproduzível são fundamentais para obter
+  visualizações que comuniquem valor de forma descomplicada em todos os
+  aspectos: elaboração, exame, interpretação e ação.  Nessa aula
+  define-se o que é visualização de dados, discorre-se sobre aspectos
+  históricos, tipos de visualização, variáveis visuais e as principais
+  competências relacionadas a visualização de dados.  Essa é a primeira
+  de 3 aulas relacionadas ao assunto e começa no instante 1:33:33.
+
+institution: "Cifloma · Departamento de Engenharia Florestal · UFPR"
+place: "Curitiba/PR"
+slideurl: http://leg.ufpr.br/~walmes/cursoR/data-vis/slides/00-datavis.pdf
+audience: "Alunos dos Cursos de Pós Graduação da UFPR"
+workload: 1h45 (parte 2)
