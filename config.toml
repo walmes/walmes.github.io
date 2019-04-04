@@ -24,40 +24,44 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    name = "Projects"
-    identifier = "projects"
-    url  = "/projects/"
+    name = "Lectures"
     weight = 2
 
 [[menu.main]]
-    name = "Teaching"
-    weight = 3
-
-[[menu.main]]
-    parent = "Teaching"
+    parent = "Lectures"
     name = "Courses"
-    # identifier = "courses"
     url  = "/courses/"
     weight = 1
 
 [[menu.main]]
-    parent = "Teaching"
-    name = "Classes"
-    # identifier = "teaching"
-    url  = "/teaching/"
+    parent = "Lectures"
+    name = "Short Courses"
+    url  = "/shortcourses/"
     weight = 2
 
 [[menu.main]]
-    parent = "Teaching"
-    name = "Talks"
-    url  = "/talks/"
+    parent = "Lectures"
+    name = "Conferences"
+    url  = "/conferences/"
     weight = 3
+
+[[menu.main]]
+    parent = "Lectures"
+    name = "Videos"
+    url  = "/videos/"
+    weight = 4
 
 [[menu.main]]
     name = "Publications"
     # identifier = "publications"
     url  = "/publications/"
     weight = 4
+
+[[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    url  = "/projects/"
+    weight = 3
 
 # [[menu.main]]
 #     name = "Blog"
