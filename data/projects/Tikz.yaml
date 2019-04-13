@@ -3,8 +3,8 @@ name: "Tikz"
 image: "../img/projects/Tikz.png"
 description: |
 
-  This is my personal gallery of draws done with Tikz latex
-  package. These draws ilustrates concepts in Statistics, program flows,
-  logos and graphics.
+  This is my personal gallery of drawings done with Tikz latex
+  package. These drawings ilustrates concepts in Statistics, program
+  flows, logos and graphics.
 
-url: https://github.com/walmes/Tikz
+url: http://leg.ufpr.br/~walmes/Tikz/
