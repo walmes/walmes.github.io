@@ -1,2 +1,4 @@
 themes/
 public/
+static/rmarkdown-libs
+static/*_files
