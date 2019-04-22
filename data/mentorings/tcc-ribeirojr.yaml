@@ -1,0 +1,9 @@
+weight: -201607
+title: "Extensões e aplicações do modelo de regressão Conway-Maxwell-Poisson para modelagem de dados de contagem."
+student: "Eduardo Elias Ribeiro Junior."
+course: "Trabalho de Conclusão de Curso de Bacharel em Estatística."
+institution: "Universidade Federal do Paraná."
+period: "Ago/2015 - Jul/2016."
+files: "[Trabalho de Conclusão de Curso](https://github.com/jreduardo/monografia/raw/master/docs/01-tcc.pdf)."
+repositories: "[Código fonte do TCC](https://github.com/jreduardo/monografia/), [Pacote](https://gitlab.c3sl.ufpr.br/eerj12/tccPackage)."
+status: "<kbd>DONE</kbd>"
