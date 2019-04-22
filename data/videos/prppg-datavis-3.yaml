@@ -1,0 +1,29 @@
+weight: 20190417
+title: "Visualização de dados"
+subtitle: "Recursos no R e aplicações"
+instructor: "Walmes Zeviani (parte 1, 0:00:00 a 1:48:00)"
+date: "17 de Abril de 2019 · 14h00"
+videourl: https://www.youtube.com/embed/2_9RMap8ixM
+description: |
+
+  O R é um ambiente em software livre e multiplataforma para computação
+  estatística e gráficos. Possui muitos recursos para confecção de
+  gráficos de alto padrão que uma das suas mais notáveis capacidades. O
+  território de confeção de gráficos pode ser dividido em 4 partes: 1)
+  recursos baseados no pacote `graphics`, 2) no pacote `lattice`, 3) no
+  pacote `ggplot2` e 4) recursos para visualização interativa. A
+  implementação do ggplot2 é baseada na gramática dos gráficos proposta
+  por Wilkinson em 1999 que é baseada, como o nome sugere, em elementos
+  gráficos adicionados como camadas. Nessa apresentação são discutidas
+  as funcionalidades dos recursos disponíveis. É dada ênfase na
+  grámatica dos gráficos usando o pacote `ggplot2`. Ao final é uma
+  análise exploratória para dados imobiliários em Curitiba. Nessa etapa
+  são confecionados gráficos para compreender a relação entre variáveis
+  e a distribuição espacial, onde são definidas medidas e calculadas
+  métricas de relação e dependência espacial.
+
+institution: "Cifloma · Departamento de Engenharia Florestal · UFPR"
+place: "Curitiba/PR"
+slideurl: http://leg.ufpr.br/~walmes/cursoR/data-vis/slides/08-ggplot2.pdf
+audience: "Alunos dos Cursos de Pós Graduação da UFPR"
+workload: 1h48 (parte 1)
