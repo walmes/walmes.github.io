@@ -69,6 +69,13 @@ paginate = 10
     url  = "/mentoring/"
     weight = 2
 
+[[menu.main]]
+    parent = "Research"
+    name = "Collaborators"
+    identifier = "collaborator"
+    url  = "/collaborator/"
+    weight = 3
+
 [[menu.main]] # -----------------------------
     name = "Publications"
     # identifier = "publications"
