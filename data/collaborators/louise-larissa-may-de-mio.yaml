@@ -1,0 +1,20 @@
+weight: 1
+name: "Louise Larissa May De Mio"
+image: "../img/profile-female.png"
+url: "http://www.agrarias.ufpr.br/portal/pgapv/louise-larissa-may-de-mio/"
+email: "maydemio@ufpr.br"
+lattes: "http://lattes.cnpq.br/5306520242222948"
+researchgate: "https://www.researchgate.net/profile/Louise_May-De_Mio"
+profession: "Professora · UFPR."
+institution: "Universidade Federal do Paraná (UFPR)."
+location: "Curitiba, Paraná, Brazil."
+education: |
+  * Dra. em Fitopatologia, ESALQ/USP (2001).
+  * M.Sc. em Fitopatologia, ESALQ/USP (1994).
+  * Eng. Agrônoma, UFPR (1989).
+domains: |
+  * Fitossanidade.
+  * Fitopatologia.
+  * Epidemiologia e Controle de Doenças de Plantas.
+latlon: "-25.4115493,-49.2513586"
+maps: "https://goo.gl/maps/hyCvgb3Z7NNNEn8e7"
