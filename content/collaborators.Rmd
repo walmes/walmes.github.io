@@ -1,0 +1,57 @@
+---
+title: "Collaborators"
+id: "collaborator"
+---
+
+---
+
+<style>
+div.leaflet {
+   display: block;
+   margin: auto;
+   border: 2px solid gray;
+}
+</style>
+
+<!-- <center> <h2> Geographical distribution </h2> </center> -->
+
+```{r, include = FALSE}
+# setwd("/home/walmes/Projects/walmes.github.io/content/")
+path <- "../data/collaborators"
+coll <- dir(path = path, full.names = TRUE)
+coll
+
+x <- read.dcf(coll[1])
+colnames(x)
+
+da <- lapply(coll,
+             FUN = function(x) {
+                 x <- read.dcf(x)
+                 ll <- gsub('"', "", x[, "latlon"])
+                 ll <- as.numeric(unlist(strsplit(ll, ",")))
+                 n <- gsub('"', "", x[, "name"])
+                 i <- gsub('"', "", x[, "institution"])
+                 data.frame(lat = ll[1],
+                            lng = ll[2],
+                            text = sprintf("<strong>%s</strong><br>%s", n, i),
+                            stringsAsFactors = FALSE)
+             })
+da <- do.call(rbind, da)
+da
+```
+
+```{r, echo = FALSE, width = "100%"}
+library(leaflet)
+library(htmltools)
+
+leaflet(data = da,
+        width = "100%",
+        height = "800px") %>%
+    setView(lat = mean(da$lat),
+            lng = mean(da$lng),
+            zoom = 3) %>%
+    addTiles() %>%
+    addMarkers(lng = ~lng,
+               lat = ~lat,
+               label = ~lapply(text, HTML))
+```
