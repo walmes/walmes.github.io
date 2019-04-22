@@ -72,8 +72,8 @@ paginate = 10
 [[menu.main]]
     parent = "Research"
     name = "Collaborators"
-    identifier = "collaborator"
-    url  = "/collaborator/"
+    identifier = "collaborators"
+    url  = "/collaborators/"
     weight = 3
 
 [[menu.main]] # -----------------------------
