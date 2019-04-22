@@ -18,12 +18,12 @@ paginate = 10
 
 # Main menu
 
-[[menu.main]]
+[[menu.main]] #------------------------------
     name = "Home"
     url  = "/"
     weight = 1
 
-[[menu.main]]
+[[menu.main]] #------------------------------
     name = "Lectures"
     weight = 2
 
@@ -51,30 +51,48 @@ paginate = 10
     url  = "/videos/"
     weight = 4
 
+[[menu.main]] #------------------------------
+    name = "Research"
+    weight = 3
+
 [[menu.main]]
+    parent = "Research"
+    name = "Projects"
+    identifier = "projects"
+    url  = "/projects/"
+    weight = 1
+
+[[menu.main]]
+    parent = "Research"
+    name = "Mentoring"
+    identifier = "mentoring"
+    url  = "/mentoring/"
+    weight = 2
+
+[[menu.main]] # -----------------------------
     name = "Publications"
     # identifier = "publications"
     url  = "/publications/"
     weight = 4
 
-[[menu.main]]
-    name = "Projects"
-    identifier = "projects"
-    url  = "/projects/"
-    weight = 3
+[[menu.main]] #------------------------------
+    name = "Agenda"
+    url  = "/#agenda"
+    weight = 6
 
 # [[menu.main]]
 #     name = "Blog"
 #     url  = "/blog/"
 #     weight = 5
 
-[[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
-    weight = 6
+# [[menu.main]] #------------------------------
+#     name = "Contact"
+#     url  = "/contact/"
+#     weight = 6
 
 # Top bar social links menu
 
+#-----------------------------------------------------------------------
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
@@ -99,6 +117,7 @@ paginate = 10
     url = "mailto:walmes@ufpr.br"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
+#-----------------------------------------------------------------------
 [params]
     viewMorePostLink = "/blog/"
     author = "Walmes Zeviani"
