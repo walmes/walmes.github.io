@@ -1,3 +1,5 @@
+/*---------------------------------------------------------------------- */
+
 #heading-breadcrumbs h1 {
     color: #ffffff;
     letter-spacing: 0em;
@@ -5,17 +7,6 @@
 
 #heading-breadcrumbs {
     background: url('../img/pattern-pixels.png') center center repeat;
-    /* background: #38a7bb; */
-    /* background-color: var(--wz-color1); */
-    /* background-position-x: 0%; */
-    /* background-position-y: 0%; */
-    /* background-repeat: repeat; */
-    /* background-attachment: scroll; */
-    /* background-image: none; */
-    /* background-size: auto auto; */
-    /* background-origin: padding-box; */
-    /* background-clip: border-box; */
-    /* opacity: 1; */
     padding: 1px 0;
     margin-bottom: 40px;
 }
@@ -52,9 +43,6 @@ table.skills td {
     padding: 0px 0.5ex;
 }
 
-/* ul.ul-edu i:hover, */
-/* ol.upcomings > li:hover, */
-/* table.skills td:nth-child(1):hover */
 ul.ul-edu li:hover,
 ul.ul-interests li:hover,
 table.skills tr:hover {
@@ -64,10 +52,6 @@ table.skills tr:hover {
 .ul-interests, .ul-edu {
     text-align: left;
 }
-
-/* ul.ul-edu li .description p.institution {
-    font-size: 90%;
-} */
 
 .box {
     background: unset;
@@ -134,7 +118,6 @@ ul.ul-interests > li::before {
     content: '\25B8';
     margin-left: -1em;
     position: absolute;
-    /* color: var(--wz-color1); */
 }
 
 /*---------------------------------------------------------------------- */
