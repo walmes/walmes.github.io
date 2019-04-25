@@ -24,10 +24,15 @@
     margin-top: 2em;
 }
 
-#course,
-#teaching,
-#project,
-#talk {
+footer#footer strong {
+    color: var(--wz-color1);
+}
+
+#copyright {
+    padding: 20px 0;
+}
+
+div#content {
     margin-bottom: 10em;
 }
 
