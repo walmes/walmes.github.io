@@ -168,6 +168,22 @@ img:hover.zoomout {
     transform: scale(0.95, 0.95);
 }
 
+div#collaborator #blog-listing-medium .post .image img.img-responsive {
+    min-width: inherit;
+}
+
+div.image + h3 {
+    margin-bottom: 10px;
+}
+
+div.social {
+    margin-bottom: 1.5em;
+}
+
+li > ul, li > ol {
+    margin-left: -0.5em;
+}
+
 /*---------------------------------------------------------------------- */
 
 .btn {
