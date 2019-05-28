@@ -1,0 +1,24 @@
+weight: 20190410
+title: "Visualização de dados"
+subtitle: "Almanaque de gráficos: taxonomia, funções e formas"
+instructor: "Walmes Zeviani (parte 2, 0:00:00 a 1:31:48)"
+date: "10 de Abril de 2019 · 16h00"
+videourl: https://www.youtube.com/embed/sKcvcGHtr88
+description: |
+
+  A escolha de um gráfico para represetação de dados é função do tipo de
+  valor das variáveis a serem exibidas, do objetivo do gráfico (função)
+  e de aspectos de forma. Com relação a função, os gráficos dividem-se
+  em 7 grupos: distribuição, relação, ordenação, evolução, mapas,
+  organização e fluxo.  O almanaque de gráficos dessa aula reúne os
+  principais gráficos usados para representação de dados.  Para cada
+  gráfico discute-se suas principais características, virtudes e
+  deficiências.  Comparações entre tipos de visualização são feitas
+  visando estimular a visão crítica e escolhas baseadas em eficiência e
+  expressividade.
+
+institution: "Cifloma · Departamento de Engenharia Florestal · UFPR"
+place: "Curitiba/PR"
+slideurl: http://leg.ufpr.br/~walmes/cursoR/data-vis/slides/00-graphics-gallery.pdf
+audience: "Alunos dos Cursos de Pós Graduação da UFPR"
+workload: 1h31 (parte 2)
