@@ -1,0 +1,17 @@
+weight: -20190610
+title: "Importância, tendências e competências em visualização de dados"
+# subtitle: ""
+image: "../img/talks/visualizacao-dados-future.png"
+description: |
+
+  Nessa rápida conferência é enfatisado a importância da visualização de
+  dados no atual momento da ciência de dados, as principais tendências
+  do campo e as competências consideradas determinantes para uma equipe
+  envolvida em data storytelling. Rapidamente são discutidos alguns
+  aspectos chaves de fundamentos de visualização de dados e recursos de
+  software.
+
+url: http://leg.ufpr.br/~walmes/cursoR/data-vis/slides/datavis.pdf
+audience: "[Público participante do Future · BI e Design](https://hubox.online/future/)"
+place: "Fecomércio · Curitiba/PR"
+date: "10 de Junho de 2019"
