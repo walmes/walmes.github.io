@@ -1,8 +1,26 @@
 /*---------------------------------------------------------------------- */
 
+/* @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:600&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    /* font-family: "Roboto", Helvetica, Arial, sans-serif; */
+    /* font-family: 'IBM Plex Sans Condensed', sans-serif; */
+    font-family: 'Francois One', sans-serif;
+    font-weight: 100;
+    line-height: 1.1;
+    color: var(--wz-color6);
+}
+
 #heading-breadcrumbs h1 {
     color: #ffffff;
     letter-spacing: 0em;
+    font-weight: inherit;
 }
 
 #heading-breadcrumbs {
@@ -17,6 +35,10 @@
 
 footer#footer strong {
     color: var(--wz-color1);
+}
+
+#footer h4 {
+    font-weight: inherit;
 }
 
 #copyright {
@@ -60,6 +82,10 @@ table.skills tr:hover {
 
 p.institution {
     margin: -0.75em 0 10px;
+}
+
+.box-simple h3 {
+    font-weight: inherit;
 }
 
 .box-simple .icon,
