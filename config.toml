@@ -6,7 +6,7 @@ languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+# disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 # googleAnalytics = ""
 ignoreFiles = ["\\.R$", "\\.Rmd$", "\\.sh", "_files$", "_cache$"]
@@ -129,7 +129,7 @@ paginate = 10
     viewMorePostLink = "/blog/"
     author = "Walmes Zeviani"
     defaultKeywords = ["RStats", "GnuEmacs", "Linux"]
-    defaultDescription = "Site template made by devcows using hugo"
+    defaultDescription = "Walmes' Homepage"
 
     # Google Maps API key (if not set will default to not passing a key.)
     # googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
@@ -151,11 +151,16 @@ paginate = 10
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
     #
-    # Enable the contact form by entering your Formspree.io email
+    # Enable the contact form by entering your Formspree.io email
     email = "walmes@ufpr.br"
 
-    about_us = """<p>Department of Statistics<br>Federal University of Paraná, Brazil.</p>
-        <img src='http://www.ufpr.br/portalufpr/wp-content/themes/wpufpr_zurb6_portalufpr/images/logo_ufpr_branca.png' width='240px'/>"""
+    about_us = """<p>
+                  Department of Statistics<br>
+                  Federal University of Paraná, Brazil.
+                  </p>
+                  <a href='https://www.ufpr.br/'>
+                    <img src='http://www.ufpr.br/portalufpr/wp-content/themes/wpufpr_zurb6_portalufpr/images/logo_ufpr_branca.png' width='240px'/>
+                  </a>"""
     copyright = "Copyright (c) 2018; all rights reserved."
 
     # Format dates with Go's time formatting
@@ -183,7 +188,7 @@ paginate = 10
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = ""
     # text = """<p class="hidden-sm hidden-xs">Contact me on +55 41 3361 3573 or walmes@ufpr.br.</p>
     #   <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
