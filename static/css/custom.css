@@ -21,11 +21,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #ffffff;
     letter-spacing: 0em;
     font-weight: inherit;
+    text-shadow: black 0px 0px 1em;
 }
 
 #heading-breadcrumbs {
-    background: url('../img/pattern-pixels.png') center center repeat;
-    padding: 1px 0;
+    /* background: url('../img/pattern-pixels.png') center center repeat; */
+    background: url('../img/pattern-hexagons.png') center center repeat;
+    padding: 0px 0;
     margin-bottom: 40px;
 }
 
