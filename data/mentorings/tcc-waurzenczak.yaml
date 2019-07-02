@@ -1,9 +1,8 @@
 weight: -201906
-title: "Construção e avaliação de modelos para a predição de torneios de DotA."
+title: "Modelos para a predição de partidas do jogo DotA2"
 student: "Andryas Waurzenczak."
 course: "Trabalho de Conclusão de Curso de Bacharel em Estatística."
 institution: "Universidade Federal do Paraná."
 period: "Ago/2018 - Jun/2019."
-# files: "[Trabalho de Conclusão de Curso]()."
-# repositories: "[]()."
-# status: "<kbd>DONE</kbd>"
+files: "[Trabalho de Conclusão de Curso](http://leg.ufpr.br/~walmes/docs/TCC-AndryasWaurzenczak.pdf)."
+status: "<kbd>DONE</kbd>"
