@@ -1,7 +1,9 @@
-weight: -20190610
+# weight: 20190610
+weight: 0
 title: "Importância, tendências e competências em visualização de dados"
-# subtitle: ""
-image: "../img/talks/visualizacao-dados-future.png"
+instructor: "Walmes Zeviani"
+date: "10 de Junho de 2019 · 14h00"
+videourl: https://www.youtube.com/embed/TuZPzRX_NgE
 description: |
 
   Nessa rápida conferência é enfatisado a importância da visualização de
@@ -11,9 +13,8 @@ description: |
   aspectos chaves de fundamentos de visualização de dados e recursos de
   software.
 
-  [**Vídeo no Youtube**](https://www.youtube.com/embed/TuZPzRX_NgE)
-
-url: http://leg.ufpr.br/~walmes/cursoR/data-vis/slides/datavis.pdf
-audience: "[Público participante do Future · BI e Design](https://hubox.online/future/)"
-place: "Fecomércio · Curitiba/PR"
-date: "10 de Junho de 2019"
+institution: "Fecomércio PR - Rua Visconde do Rio Branco, 931 - Centro"
+place: "Curitiba/PR"
+slideurl: http://leg.ufpr.br/~walmes/home/img/talks/visualizacao-dados-future.png
+audience: "[Future · Design & Business Intelligence](https://hubox.online/future/) · UFPR & HUBOX"
+workload: 2h
