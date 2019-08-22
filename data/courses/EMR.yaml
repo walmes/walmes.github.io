@@ -1,0 +1,19 @@
+weight: -201902
+name: "Extensões de Modelos de Regressão (CE 092)"
+instructor: "Walmes Zeviani & Paulo Justiniano Ribeiro Jr"
+# image: "http://web.leg.ufpr.br/ensino/CPI/config/logo-site.png"
+image: "http://web.leg.ufpr.br/ensino/EMR/apostila/config/capa.png"
+description: |
+
+  * Revisão de modelos lineares e lineares generalizados
+  * Modelos de regressão local, splines, aditivos generalizados e não lineares
+  * Modelos de regressão com erros heterocedásticos e correlacionados
+  * Modelos de efeitos aleatórios
+  * Modelos de regressão quantílica
+  * Modelos de árvores de regressão e classificação
+  * Modelos de redes neurais
+  * Introdução aos modelos de regressão multivariados
+
+url: http://web.leg.ufpr.br/ensino/EMR
+workload: "60 hrs"
+semester: "Curso de Estatística - 8º semestre · UFPR"

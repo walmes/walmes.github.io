@@ -1,0 +1,16 @@
+weight: -201901
+name: "Controle Estatístico de Qualidade (CE 219)"
+instructor: "Walmes Zeviani & Cesar Augusto Taconeli"
+# image: "http://leg.ufpr.br/~walmes/ensino/CEQ/config/logo.png"
+image: "https://raw.githubusercontent.com/walmes/Tikz/master/src/sampling-plan-2.png"
+description: |
+
+  * Qualidade.
+  * Controle estatístico de qualidade.
+  * Gráficos de controle.
+  * Inspeção de qualidade.
+  * Amostragem dupla, simples, múltipla e sequencial.
+
+url: http://leg.ufpr.br/~walmes/ensino/CEQ/
+workload: "60 hrs"
+semester: "Curso de Estatística - 5º semestre · UFPR"

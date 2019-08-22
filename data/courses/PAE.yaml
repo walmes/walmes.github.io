@@ -1,0 +1,15 @@
+weight: -201602
+name: "Planejamento e Análise de Experimentos com o R (APV 7037)"
+instructor: "Walmes Zeviani"
+image: "http://leg.ufpr.br/~walmes/ensino/apv7037/img/logo.png"
+description: |
+
+  * Introdução ao R para análise de experimentos.
+  * Análise de experimentos com uma fonte de variação.
+  * Análise de experimentos fatoriais.
+  * Análise de experimentos com regressão linear e não linear.
+  * Introdução aos relatórios dinâmicos com Rmarkdown.
+
+url: http://leg.ufpr.br/~walmes/ensino/apv7037
+workload: "45 hrs"
+semester: "Programa de Pós Graduação em Agronomia - [Produção Vegetal](http://www.agrarias.ufpr.br/portal/pgapv/) · UFPR"

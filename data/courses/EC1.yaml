@@ -1,0 +1,19 @@
+weight: -201402
+name: "Estatística Computacional I (CE 083)"
+instructor: "Walmes Zeviani"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png"
+description: |
+
+  * Computação ciêntífica e interação com o R.
+  * Objetos e classes.
+  * Indexação e seleção condicional.
+  * Entrada e saída de dados.
+  * Programando com dados.
+  * Análise exploratória de dados.
+  * Probabilidade de variáveis aleatórias.
+  * Inferência estatística.
+  * Relatórios dinâmicos.
+
+url: http://leg.ufpr.br/~walmes/ensino/ce083-2014-02/
+workload: "60 hrs"
+semester: "Curso de Estatística - 2º semestre · UFPR"

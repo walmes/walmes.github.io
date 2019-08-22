@@ -1,0 +1,14 @@
+weight: -201901
+name: "Exploração e comunicação de dados com R e Python"
+instructor: "Walmes Zeviani & Paulo Justiniano Ribeiro Jr"
+# image: "http://web.leg.ufpr.br/ensino/CPI/config/logo-site.png"
+image: "http://leg.ufpr.br/~walmes/ensino/dsbd-linprog/config/logo-site.png"
+description: |
+
+  * Manipução de dados com Python.
+  * Manipulação de dados com R.
+  * Gráficos, relatórios e dashboards.
+
+url: http://leg.ufpr.br/~walmes/ensino/dsbd-linprog/
+workload: "Módulo de 20 hrs em Linguagens de Programação para Ciência de Dados"
+semester: "Curso de Especialização em Data Science e Big Data · UFPR"

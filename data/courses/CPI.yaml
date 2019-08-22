@@ -1,7 +1,8 @@
-weight: 2
+weight: -201902
 name: "Controle de Processos Industriais (CE 074)"
-instructor: "Walmes Zeviani & Fernando de Pol Mayer"
-image: "../img/teaching/CPI.png"
+instructor: "Walmes Zeviani"
+# image: "http://web.leg.ufpr.br/ensino/CPI/config/logo-site.png"
+image: "http://web.leg.ufpr.br/ensino/CPI/apostila/config/capa.png"
 description: |
 
   * Revisão de Planejamento de Experimentos I.
@@ -9,8 +10,9 @@ description: |
   * Planejamentos fatoriais 2$^k$ e 3$^k$.
   * Experimentos com confundimento de termos com blocos.
   * Experimentos fatoriais 2$^k$ e 3$^k$ fracionados.
+  * Planejamento evolucionário de experimentos.
   * Metodologia de superfície de resposta.
 
-url: http://leg.ufpr.br/~fernandomayer/aulas/ce074/
+url: http://web.leg.ufpr.br/ensino/CPI
 workload: "60 hrs"
 semester: "Curso de Estatística - 6º semestre · UFPR"

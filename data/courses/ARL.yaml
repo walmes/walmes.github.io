@@ -1,0 +1,13 @@
+weight: -201402
+name: "Análise de Regressão Linear (CE 071)"
+instructor: "Walmes Zeviani"
+image: "https://raw.githubusercontent.com/walmes/Tikz/master/src/reg_geom.png"
+description: |
+
+  * Análise de regressão simples e múltipla.
+  * Estimação dos parâmetros.
+  * Análise de resíduos.
+
+url: http://leg.ufpr.br/~walmes/ensino/ce071-2014-01/
+workload: "60 hrs"
+semester: "Curso de Estatística - 5º semestre · UFPR"
