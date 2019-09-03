@@ -1,0 +1,17 @@
+weight: -20190801
+title: "R para ciência de dados: um curso introdutório"
+subtitle: "Parte 1 de 2"
+instructor: "Walmes Zeviani"
+date: "01 de Agosto de 2019"
+videourl: 'https://www.youtube.com/embed/OulbfLLlwP0?start=1748'
+description: |
+
+  Nessa parte do curso é feita introdução à linguagem R, com motivação e
+  algumas passagens históricas, é dado o básico da linguagem, com tipos
+  de objetos, atribuição, seleção, estrutura de controle, funções. São
+  feitos comentários sobre editores disponíveis para R.
+
+institution: "III Workshop de Estatística do Poder Judiciário · Conselho Nacional de Justiça"
+place: "Tribunal Superior Eleitoral, Setor de Administração Federal Sul, Quadra 7, Lotes 1/2, Auditório 1, subsolo – Brasília/DF"
+audience: "Servidores dos tribunais de justiça com formação em Estatística"
+workload: 2h00
