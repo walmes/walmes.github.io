@@ -1,0 +1,16 @@
+weight: -201206
+name: "Ambiente R"
+instructors: "Paulo Justiniano Ribeiro Jr & Walmes Marques Zeviani"
+image: "../img/courses/cnj-R.png"
+workload: 60h
+description: |
+
+  Curso feito para os servidores no Conselho Nacional de Justiça em 4
+  módulos: 1) introdução à linguagem R, 2) manipulação e visualização de
+  dados com confecção de relatórios dinâmicos, 3) modelos de regressão
+  aplicados e 4) métodos para análise de dados espaciais.
+
+url: http://leg.ufpr.br/~walmes/cursoR/cnj/
+date: "Junho e Setembro de 2012"
+place: "Brasília - Distrito Federal"
+institution: "Conselho Nacional de Justiça"

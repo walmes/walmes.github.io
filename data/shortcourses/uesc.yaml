@@ -1,0 +1,16 @@
+weight: -201211
+name: "Modelos de Regressão Não Linear: teoria e aplicações em R"
+image: "../img/courses/uesc.JPG"
+workload: 16h
+description: |
+
+  O curso fez exposição sobre a teoria dos modelos de regressão linear e
+  não linear: especificação, componentes, métodos de estimação,
+  pressupostos, técnicas de diagnóstico, reparametrização de modelos não
+  lineares, medidas de curvatura e modelos mistos não
+  lineares. Aplicações em R foram feitas.
+
+url: http://leg.ufpr.br/~walmes/cursoR/uesc/
+date: "21 e 22 de Novembro de 2012"
+place: "Universidade Estadual de Santa Cruz, Ilhéus, Bahia"
+institution: "[Universidade Estadual de Santa Cruz](http://www.uesc.br/)"

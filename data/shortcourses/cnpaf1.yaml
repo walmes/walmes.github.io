@@ -1,0 +1,18 @@
+weight: -201111
+name: "Estatística Experimental Aplicada"
+image: "../img/courses/cnpaf1.png"
+workload: 40h
+description: |
+
+  Curso sobre Estatística Experimental com R para os pesquisadores da
+  Embrapa Arros e Feijão. Neste curso foram abordados a análise de
+  experimentos sob os principais delineamentos e planejamentos
+  experimentais utilizados em Ciências Agrárias. Além disso, abordou-se
+  modelos não lineares, experimentos multinível e em faixas, análise
+  conjunta de experimentos, análise de experimentos com respostas de
+  contagem e proporção.
+
+url: http://leg.ufpr.br/~walmes/cursoR/cnpaf/
+date: "7 a 11 de Novembro de 2011"
+place: "Embrapa Arroz e Feijão, Santo Antônio de Goiás - Goiás"
+institution: "[Embrapa Arroz e Feijão](https://www.embrapa.br/arroz-e-feijao)"

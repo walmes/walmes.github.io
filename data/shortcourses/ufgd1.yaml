@@ -1,0 +1,16 @@
+weight: -201104
+name: "Curso de Capacitação ao Ambiente Estatístico R"
+image: "../img/courses/ufgd1.png"
+workload: 40h
+description: |
+
+  O curso, para os professores e alunos da Faculdade de Ciências
+  Agrárias, abordou os princípios da linguagem R, a importação e
+  tratamento de dados, estatística básica, análise de regressão linear e
+  não linear, e análise de experimentos nos principais delineamentos e
+  planejamentos experimentais de Ciências Agrárias.
+
+url: http://leg.ufpr.br/~walmes/cursoR/cursoR4.pdf
+date: "25 a 29 de Abril de 2011"
+place: "Universidade Federal da Grande Dourados, Dourados - Mato Grosso do Sul"
+institution: "[Universidade Federal da Grande Dourados](https://www.ufgd.edu.br/)"

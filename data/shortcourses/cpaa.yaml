@@ -1,0 +1,15 @@
+weight: -201411
+name: "Estatística experimental com aplicações em R"
+image: "../img/courses/cursoRcpaa.JPG"
+description: |
+
+  Curso sobre análise de experimentos com R. Neste curso foram abordados
+  a análise de experimentos sob os principais delineamentos e
+  planejamentos experimentais utilizados em Ciências Agrárias. Além
+  disso, abordou-se modelos não lineares, experimentos multinível e
+  análise conjunta de experimentos.
+
+url: http://leg.ufpr.br/~walmes/cursoR/cpaa/
+date: "12 a 14 de Novembro de 2014"
+place: "Embrapa Amazônia Ocidental, Manaus - Amazonas"
+institution: "[Embrapa Amazônia Ocidental](https://www.embrapa.br/amazonia-ocidental)"
