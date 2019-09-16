@@ -6,11 +6,12 @@ description: |
   Curso oferecido para os colaboradores do Conselho Nacional de
   Justica. O curso abordou as técnicas para raspagem de dados de páginas
   web com o R: documentos baseados em XML e JSON, linguagem de consulta
-  Xpath, estratégias para extração de dados, protocolos de conexeção
+  Xpath, estratégias para extração de dados, protocolos de conexão
   cliente/servidor, selenium web driver, extração de texto de PDFs e
   automação de web crawlers.
 
 url: http://leg.ufpr.br/~walmes/ensino/web-scraping/
 date: "22 a 26 de Fevereiro de 2018"
 place: "Brasília - Distrito Federal"
+workload: 30h
 institution: "Conselho Nacional de Justiça"

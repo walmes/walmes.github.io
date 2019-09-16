@@ -1,6 +1,7 @@
 weight: -201504
 name: "Modelos de Regressão e Aplicações no Ambiente R"
-image: "../img/courses/regressao-fiocruz.png"
+image: "../img/courses/fiocruz.jpg"
+#image: "../img/courses/regressao-fiocruz.png"
 description: |
 
   Curso sobre modelos de regressão linear oferecido para os
@@ -13,5 +14,6 @@ description: |
 
 url: http://leg.ufpr.br/~walmes/cursoR/fiocruz/
 date: "13 a 17 de Abril de 2015"
-place: "Manaus - Amazonas"
-institution: "FIOCRUZ"
+workload: 40h
+place: "Fundação Osvaldo Cruz, Manaus - Amazonas"
+institution: "[Fundação Osvaldo Cruz](https://amazonia.fiocruz.br/)"
