@@ -1,16 +1,103 @@
-+++
-title = "Publications"
-+++
+---
+title: "Publications"
+bibliography: refs.bib
+csl: ABNT-UFPR-2011-Mendeley.csl
+output:
+  html_fragment
+---
 
-## Selected publications
+```{r, include = FALSE}
+library(tidyverse)
+library(bib2df)
 
-<!-- https://crosscite.org/ -->
+ref <- bib2df("refs.bib")
+names(ref)
 
-  1. Zeviani, W. M., Ribeiro, P. J., Jr, Bonat, W. H., Shimakura, S. E., & Muniz, J. A. (2014). The Gamma-count distribution in the analysis of experimental underdispersed data. **Journal of Applied Statistics**, 41(12), 2616–2626. https://doi.org/10.1080/02664763.2014.922168
-  2. Carducci, C. E., Oliveira, G. C. de, Severiano, E. da C., & Zeviani, W. M. (2011). Modelagem da curva de retenção de água de Latossolos utilizando a Equação Duplo Van Genuchten. **Revista Brasileira de Ciência do Solo**, 35(1), 77–86. https://doi.org/10.1590/s0100-06832011000100007
-  3. Zeviani, W. M., Silva, C. A., Carneiro, W. J. de O., & Muniz, J. A. (2012). Modelos não lineares para a liberação de potássio de estercos animais em latossolos. **Ciência Rural**, 42(10**, 1789–1796. https://doi.org/10.1590/s0103-84782012001000012
+# Publicações por ano.
+i <- !is.na(ref$JOURNAL)
+tb_year <- ref[i, ] %>%
+    count(YEAR) %>%
+    mutate(ac = cumsum(n)) %>%
+    gather("medida", "qtd", -YEAR) %>%
+    mutate(medida = factor(medida,
+                           levels = c("n", "ac"),
+                           labels = c("Yearly", "Accumulated")))
+
+# Tabela auxiliar para anotações.
+u <- data.frame(medida = "Yearly",
+                # YEAR = min(ref$YEAR),
+                YEAR = 2016,
+                y = sum(i)/(diff(range(ref$YEAR)) + 1))
+u
+
+# Gráfico.
+gg1 <-
+ggplot(tb_year,
+       aes(x = YEAR, y = qtd, group = 1)) +
+    facet_wrap(~medida, scales = "free_y") +
+    geom_point() +
+    geom_line() +
+    geom_smooth(data = filter(tb_year, medida == "Accumulated"),
+                linetype = 2,
+                size = 0.3,
+                color = "darkorange",
+                se = FALSE,
+                method = "lm") +
+    geom_label(mapping = aes(label = qtd),
+               label.size = 0.1,
+               # fill = "gray25",
+               # color = "white",
+               label.padding = unit(0.15, "lines"),
+               nudge_x = 0.1,
+               hjust = 0,
+               vjust = 0.5) +
+    geom_hline(data = u,
+               mapping = aes(yintercept = y),
+               lty = 3,
+               color = "darkorange") +
+    geom_text(data = u,
+              inherit.aes = FALSE,
+              mapping = aes(x = YEAR,
+                            y = y,
+                            label = sprintf("Avg: %0.1f", y)),
+              hjust = 0, vjust = -0.5) +
+    expand_limits(y = c(0, NA),
+                  x = range(ref$YEAR) + c(-0.25, 0.75)) +
+    scale_x_continuous(breaks = seq(min(tb_year$YEAR),
+                                    max(tb_year$YEAR),
+                                    by = 2)) +
+    labs(x = "Year",
+         y = "Number of publications",
+         title = "Publications in journals")
+gg1
+
+cap <- sprintf("Number of publications in journal over time. The complete list of references is at the bottom of the page. Last update at %s.",
+               Sys.Date())
+
+#--------------------------------------------
+
+fix <- function(x) {
+    x %>%
+        str_replace_all("[[:punct:]^~]", "") %>%
+        str_to_upper()
+}
+a <- lapply(ref$AUTHOR, fix)
+
+sort(unlist(a)) %>%
+    unique()
+
+
+
+```
+
+## Production progress
+
+```{r, echo = FALSE, fig.align = "center", fig.height = 4.32, fig.width = 7, dev.args = list(png = list(family = "Roboto Condensed")), fig.cap = cap}
+gg1
+```
 
 ----------------------------------------------------------------------
+
 ## Complete CV
 
 Please, visit my profile at any of the services below:
@@ -30,6 +117,19 @@ Please, visit my profile at any of the services below:
 </div>
 <h3>
 Currículo Lattes
+</h3>
+</a>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="box-simple">
+<a href="https://www.mendeley.com/profiles/walmes-zeviani1/">
+<div class="icon">
+<i class="ai ai-2x ai-mendeley"></i>
+</div>
+<h3>
+Mendeley
 </h3>
 </a>
 </div>
@@ -61,24 +161,22 @@ Google Scholar
 </div>
 </div>
 
-<div class="col-md-3">
-<div class="box-simple">
-<a href="https://www.mendeley.com/profiles/walmes-zeviani1/">
-<div class="icon">
-<i class="ai ai-2x ai-mendeley"></i>
-</div>
-<h3>
-Mendeley
-</h3>
-</a>
-</div>
-</div>
-
 </div>
 </div>
 </div>
 
 ----------------------------------------------------------------------
+
+## Selected publications
+
+<!-- https://crosscite.org/ -->
+
+  1. Zeviani, W. M., Ribeiro, P. J., Jr, Bonat, W. H., Shimakura, S. E., & Muniz, J. A. (2014). The Gamma-count distribution in the analysis of experimental underdispersed data. **Journal of Applied Statistics**, 41(12), 2616–2626. https://doi.org/10.1080/02664763.2014.922168
+  2. Carducci, C. E., Oliveira, G. C. de, Severiano, E. da C., & Zeviani, W. M. (2011). Modelagem da curva de retenção de água de Latossolos utilizando a Equação Duplo Van Genuchten. **Revista Brasileira de Ciência do Solo**, 35(1), 77–86. https://doi.org/10.1590/s0100-06832011000100007
+  3. Zeviani, W. M., Silva, C. A., Carneiro, W. J. de O., & Muniz, J. A. (2012). Modelos não lineares para a liberação de potássio de estercos animais em latossolos. **Ciência Rural**, 42(10**, 1789–1796. https://doi.org/10.1590/s0103-84782012001000012
+
+----------------------------------------------------------------------
+
 ## Doctor Thesis
 
 <div style="float: right;">
@@ -201,6 +299,7 @@ Banca de Defesa (Aprovada em 13 de maio de 2013):
   * Prof. Dr. Augusto Ramalho de Morais - UFLA
 
 ----------------------------------------------------------------------
+
 ## Master Thesis
 
 <div style="float: right;">
@@ -267,3 +366,30 @@ Banca de Defesa (Aprovada em 18 de setembro de 2009):
   * Prof. Dr. Carlos Alberto Silva (co-orientador) - UFLA
   * Profa. Dra. Taciana Villela Savian - UFLA
   * Prof. Dr. Luiz Alberto Beijo - UNIFAL-MG
+
+----------------------------------------------------------------------
+
+## Publications
+
+References are displayed according to the alphabetical order of the
+first author. This list includes publications in journals, books and
+chapters.
+
+```{r, include = FALSE}
+# system("sed '/Url/d' config/refs.bib > config/Refs.bib")
+refs <- system("grep -E '^@[[:alpha:]]+{' refs.bib",
+               intern = TRUE)
+refs <- gsub("^@[[:alpha:]]+\\{([[:alnum:]]+),",
+             replacement = "@\\1",
+             x = refs)
+cat(refs, sep = ", ")
+x <- paste(refs, collapse = ", ")
+```
+
+---
+nocite: |
+  `r x`
+...
+
+<div id="refs">
+</div>

@@ -8,6 +8,17 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
+div#refs div p {
+    text-indent: -1.25em !important;
+    /* text-indent: -1em */
+    margin-left: 1.25em;
+    text-align: left;
+}
+
+div#refs div p a {
+    color: lightgray;
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     /* font-family: "Roboto", Helvetica, Arial, sans-serif; */
     /* font-family: 'IBM Plex Sans Condensed', sans-serif; */
@@ -91,15 +102,22 @@ p.institution {
 }
 
 .box-simple .icon,
+.box-simple .icon .ai,
 .box-simple h3 {
     color: var(--wz-color6);
     border-color: var(--wz-color6);
 }
 
 .box-simple:hover .icon,
+.box-simple:hover .icon .ai,
 .box-simple:hover h3 {
     color: var(--wz-color1);
     border-color: var(--wz-color1);
+}
+
+.box-simple a:hover,
+.box-simple a:focus {
+    text-decoration: unset;
 }
 
 .text-uppercase,
