@@ -76,6 +76,13 @@ paginate = 10
     url  = "/collaborators/"
     weight = 3
 
+[[menu.main]]
+    parent = "Research"
+    name = "Events"
+    identifier = "events"
+    url  = "/events/"
+    weight = 4
+
 [[menu.main]] # -----------------------------
     name = "Publications"
     # identifier = "publications"

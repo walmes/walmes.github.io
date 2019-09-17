@@ -1,0 +1,19 @@
+weight: -201803
+title: "Hackathon de Data Science"
+#subtitle: ""
+commitee: "Walmes Marques Zeviani"
+image: "../img/events/hackathon-laura.png"
+description: |
+
+  O Hackathon de Data Science teve o objetivo de reunir estudantes para
+  uma competição de programação de ciência de dados. A premiação do
+  hackathon foram vouchers para o Data Science Summit 2018, cordialmente
+  patrocinados pela [Laura](http://www.lauranetworks.com/). Os projetos
+  desenvolvidos pelos participantes encontram-se no repositório:
+  <https://github.com/leg-ufpr/hackathon>.
+
+url: https://github.com/leg-ufpr/hackathon
+homepage: https://github.com/leg-ufpr/hackathon
+date: "17 de Março de 2018"
+place: "Laboratório de Estatística e Goeinformação, Universidade Federal do Paraná"
+institution: "Laboratório de Estatística e Goeinformação · UFPR"
