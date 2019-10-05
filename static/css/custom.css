@@ -49,13 +49,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
 }
 #heading-breadcrumbs {
-    background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), url('../img/pattern-hexagons.png');
-    background-blend-mode: multiply;
-    background-size: 400% 200%, auto auto;
+    /* background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), url('../img/pattern-hexagons.png'); */
+    /* background-size: 400% 200%, auto auto; */
+    /* background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), url('../img/pattern-waves.jpg'); */
+    /* background-size: 400% 200%, 10em auto; */
+    /* background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), url('../img/pattern-points.jpg'); */
+    /* background-size: 400% 200%, 7em auto; */
+    /* background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), url('../img/pattern-dots.jpg'); */
+    /* background-size: 400% 200%, 8em auto; */
+    /* background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), url('../img/pattern-diamond.jpg'); */
+    /* background-size: 400% 200%, 12em auto; */
+    /* background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), url('../img/pattern-lines.jpg'); */
+    /* background-size: 400% 200%, 8em auto; */
+    /* background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), url('../img/pattern-voronoi.jpg'); */
+    /* background-size: 400% 200%, 20em auto; */
+    /* background-blend-mode: multiply; */
+    background-image: url('../img/panorama-landscape.png');
+    background-size: 90em auto;
     /* animation: gradientBG 30s ease infinite; */
     animation: gradientBG 120s linear infinite;
     padding: 0px 0;
-    margin-bottom: 40px;
+    margin-bottom: 140px;
 }
 
 /*------------------------------------------- */
