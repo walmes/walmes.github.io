@@ -34,7 +34,10 @@ u
 gg1 <-
 ggplot(tb_year,
        aes(x = YEAR, y = qtd, group = 1)) +
-    facet_wrap(~medida, scales = "free_y") +
+    facet_wrap(~medida,
+               # labeller = labeller(medida = c("Yearly" = "Anual",
+               #                                "Accumulated" = "Acumulado")),
+               scales = "free_y", ) +
     geom_point() +
     geom_line() +
     geom_smooth(data = filter(tb_year, medida == "Accumulated"),
@@ -60,16 +63,25 @@ ggplot(tb_year,
               mapping = aes(x = YEAR,
                             y = y,
                             label = sprintf("Avg: %0.1f", y)),
+                            # label = sprintf("Média: %0.1f", y)),
               hjust = 0, vjust = -0.5) +
     expand_limits(y = c(0, NA),
                   x = range(ref$YEAR) + c(-0.25, 0.75)) +
     scale_x_continuous(breaks = seq(min(tb_year$YEAR),
                                     max(tb_year$YEAR),
                                     by = 2)) +
-    labs(x = "Year",
-         y = "Number of publications",
-         title = "Publications in journals")
+    labs(x = c("Year",
+               "Ano")[2],
+         y = c("Number of publications",
+               "Número de publicações")[2],
+         title = c("Publications in journals",
+                   "Publicações em periódicos")[2])
 gg1
+
+# ggsave(file = "serie.png",
+#        width = 7,
+#        height = 4.5,
+#        family = "Roboto Condensed")
 
 cap <- sprintf("Number of publications in journal over time. The complete list of references is at the bottom of the page. Last update at %s.",
                Sys.Date())
