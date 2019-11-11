@@ -1,0 +1,20 @@
+weight: -20191025
+title: "Uso da linguagem R para análise de dados de inventário florestal"
+image: "../img/talks/r-inventario-florestal.png"
+description: |
+
+  A palestra apresenta a linguagem R como ferramenta para computação
+  estatística e gráficos destacando seus principais aspectos: software
+  livre de código aberto, multiplataforma, capacidade gráfica,
+  extensível por meio de pacotes, interoperabilidade e
+  interconectividade com outros softwares e linguagens. Foi comentato
+  sobre o aumento em popularidade e uso do R em ambientes profissionais
+  na Era de Ciência de Dados. Se fez uma demostração de recusos do R
+  para: confecção de gráficos estáticos e interativos, confecção de
+  dashboards, ajuste de modelos estatísticos, produção de relatórios
+  dinâmicos.
+
+url: http://leg.ufpr.br/~walmes/talks/linguagem-r-para-inventario-florestal.html
+audience: "Público do [Workshop Inventário e Mensuração](http://www.apreflorestas.com.br/evento/workshop-inventario-e-mensuracao/)"
+place: "Auditório da Emater · Rua da Bandeira, 500, Cabral · Curitiba/PR"
+date: "14:00 · 25 de Outubro de 2019"
