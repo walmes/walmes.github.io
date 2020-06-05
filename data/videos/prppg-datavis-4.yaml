@@ -1,0 +1,25 @@
+weight: -20200527
+title: "Visualização de Dados (1/2)"
+subtitle: "Almanaque de gráficos: taxonomia, funções e formas (versão 2020)"
+instructor: "Walmes Zeviani"
+date: "27 de Maio de 2020 · 14h00"
+videourl: https://www.youtube.com/embed/dqnEpSqFCvY
+playlist: Ver na playlist [Visualização de Dados · MEPC/UFPR · 2020](https://www.youtube.com/watch?v=dqnEpSqFCvY&list=PLXaDAv_nBDLcGKpbQeEgqLnpBWCXYzqPc&index=1)
+description: |
+
+  A escolha de um gráfico para represetação de dados é função do tipo de
+  valor das variáveis a serem exibidas, do objetivo do gráfico (função)
+  e de aspectos de forma. Com relação a função, os gráficos dividem-se
+  em 7 grupos: distribuição, relação, ordenação, evolução, mapas,
+  organização e fluxo.  O almanaque de gráficos dessa aula reúne os
+  principais gráficos usados para representação de dados.  Para cada
+  gráfico discute-se suas principais características, virtudes e
+  deficiências.  Comparações entre tipos de visualização são feitas
+  visando estimular a visão crítica e escolhas baseadas em eficiência e
+  expressividade.
+
+institution: "Universidade Federal do Paraná"
+place: "Curitiba/PR (broadcast)"
+slideurl: http://leg.ufpr.br/~walmes/cursoR/data-vis/slides/00-graphics-gallery.pdf
+audience: "Alunos dos Cursos de Pós Graduação da UFPR"
+workload: 2h12
