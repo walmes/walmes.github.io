@@ -1,0 +1,32 @@
+weight: -20191007
+title: "Recursos para visualização de dados no R e a lógica do ggplot2"
+instructor: "Walmes Zeviani"
+date: "07 de Outubro de 2019 · 15h20"
+videourl: https://www.youtube.com/embed/KvWCppWip7I
+description: |
+
+  Na webconferência foram apresentados os principais recursos gráficos
+  do R com enfase para a lógica e capacidade gráfica do pacote
+  ggplot2. Foram discutidos os aspectos centrais da gramática dos
+  gráficos e feita a construção de gráficos com o ggplot2 em um exemplo
+  de dados real sobre imóveis à venda em Curitiba usando gráficos para
+  representar a distribuição das variáveis, a relação entre elas e a
+  distribuição espacial. Fez-se manipulação dos dados para obter novas
+  variáveis e entender a relação entre elas.
+
+  Essa conferência é parte das atividades do projeto de Extensão
+  "Ciência de Dados · Palestras & Encontros" coordenado pelo
+  [Dr. Marcelo Correa da Silva](http://lattes.cnpq.br/1263108475535325)
+  e foi direcionada para os alunos do [Programa de Pós Graduação em
+  Agronegócio](https://portal.ufgd.edu.br/pos-graduacao/mestrado-agronegocios/index)
+  da Universidade Federal da Grande Dourados (UFGD).
+
+  Agradeço ao Dr. Marcelo pelo convite para essa conferência, a todos os
+  alunos presentes na sessão remota e a todos os participantes do
+  mencionado projeto de Extensão.
+
+institution: "Universidade Federal do Paraná"
+place: "Curitiba/PR (broadcast)"
+slideurl: http://leg.ufpr.br/~walmes/cursoR/data-vis/slides/08-ggplot2.pdf
+audience: "Alunos do Programa de Pós Graduação em Agronegócio/UFGD"
+workload: 1h
