@@ -1,0 +1,25 @@
+weight: -20200715
+title: "Uso da linguagem R para análise de dados de inventário florestal"
+# subtitle: ""
+instructor: "Walmes Zeviani"
+date: "15 de Julho de 2020 · 15h00"
+videourl: https://www.youtube.com/embed/bHA8qdCmzDI
+description: |
+
+  Web conferência dentro da programação do Ciclo de Palestras de Tópicos
+  Avançados em Engenharia Florestal (https://www.even3.com.br/taef/).
+
+  A palestra também foi gravada pelos organizadores (em 720p) e contém a
+  parte de discussões ao final.  Está disponível aqui:
+  <https://www.youtube.com/watch?v=SC6fdNsSzV8>.
+
+  Link dos slides:
+
+    * <http://leg.ufpr.br/~walmes/talks/linguagem-r-para-inventario-florestal.html>
+    * <http://leg.ufpr.br/~walmes/talks/linguagem-r-para-inventario-florestal.pdf>
+
+institution: "Universidade Federal do Paraná"
+place: "Curitiba/PR (broadcast)"
+# slideurl:
+audience: "Participantes do Ciclo de Palestras de Tópicos Avançados em Engenharia Florestal"
+workload: 00h45

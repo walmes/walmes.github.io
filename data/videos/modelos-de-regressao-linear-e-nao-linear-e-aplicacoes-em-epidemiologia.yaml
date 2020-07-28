@@ -1,0 +1,26 @@
+weight: -20200618
+title: "Modelos de Regressão Linear e Não Linear e Aplicações em Epidemiologia de Doenças de Plantas"
+# subtitle: ""
+instructor: "Walmes Zeviani"
+date: "18 de Junho de 2020 · 8h30"
+videourl: https://www.youtube.com/embed/nlPaQtNbD9Q
+description: |
+
+  Aula convidada (dia 18/Jun/2020, 8h30 BRT) sobre "Modelos de Regressão
+  Linear e Não Linear e Aplicações em Epidemiologia de Plantas" dentro
+  da disciplina de Epidemiologia para Manejo Integrado de Doenças,
+  coordenada pela Profa. Dra. Louise Larissa May De Mio e faz parte do
+  Programa de Pós Graduação em Produção Vegetal.
+
+  Nessa aula, faz-se uma exposição geral sobre modelos de regressão para
+  em seguida contextualizar, definir e apresentar aplicações de modelos
+  não lineares. Os modelos não lineares são muito utilizados em Ciências
+  Agrárias, principalmente na área de Epidemiologia de Doenças de
+  Plantas. Os estudos de caso usam dados reais e empregam o software de
+  computação estatística R.
+
+institution: "Universidade Federal do Paraná"
+place: "Curitiba/PR (broadcast)"
+# slideurl:
+audience: "Alunos matriculados em Epidemiologia para Manejo Integrado de Doenças · PPGPV/UFPR"
+workload: 3h00
