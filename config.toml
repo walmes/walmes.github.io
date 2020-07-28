@@ -35,6 +35,12 @@ paginate = 10
 
 [[menu.main]]
     parent = "Lectures"
+    name = "EaD"
+    url  = "/ere/"
+    weight = 1
+
+[[menu.main]]
+    parent = "Lectures"
     name = "Short Courses"
     url  = "/shortcourses/"
     weight = 2

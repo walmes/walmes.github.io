@@ -1,0 +1,15 @@
+weight: 5
+title: "Tipos de variáveis e formas de Análise Descritiva"
+# subtitle: "História e fundamentos"
+instructor: "Walmes Zeviani"
+videourl: https://www.youtube.com/embed/W0NEMu34BTI
+description: |
+
+  Neste vídeo comentamos sobre os tipos de variáveis e a importância da
+  sua compreensão para a análise de dados. Em seguida, apresentamos os
+  métodos para a análise descritiva de dados considerando a forma de
+  apresentação e os objetivos da análise.
+
+institution: "Departamento de Estatística · UFPR"
+# slideurl: http://leg.ufpr.br/~walmes/cursoR/data-vis/slides/00-datavis.pdf
+audience: "Alunos da disciplina de Estatística na modalidade de Ensino Remoto Emergêncial"

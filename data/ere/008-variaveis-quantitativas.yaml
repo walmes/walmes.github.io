@@ -1,0 +1,16 @@
+weight: 7
+title: "Tabelas de frequência e gráficos para variáveis quantitativas"
+# subtitle: "História e fundamentos"
+instructor: "Walmes Zeviani"
+videourl: https://www.youtube.com/embed/2P5ngU5SzP4
+description: |
+
+  Neste vídeo falamos como descrever variáveis quantitativas usando
+  tabelas de frequência e gráficos. O processo de agrupamento de valores
+  em classe é discutido e a definição de frequência acumulada é
+  apresentada. São vistos histogramas de frequência e de densidade,
+  gráfico de densidade acumulada e gráfico de densidade empírica.
+
+institution: "Departamento de Estatística · UFPR"
+# slideurl: http://leg.ufpr.br/~walmes/cursoR/data-vis/slides/00-datavis.pdf
+audience: "Alunos da disciplina de Estatística na modalidade de Ensino Remoto Emergêncial"
