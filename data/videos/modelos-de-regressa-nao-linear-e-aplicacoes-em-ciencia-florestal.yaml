@@ -1,0 +1,27 @@
+weight: -20210304
+title: "Modelos de regressão não linear e aplicações na ciência florestal"
+# subtitle: ""
+instructor: "Walmes Zeviani"
+date: "04 de Março de 2021 · 18h00"
+videourl: https://www.youtube.com/embed/nq757Kk9qUg
+description: |
+
+  Aula convidada (dia 04 de Março de 2021, 18h00 BRT) sobre "modelos de
+  regressão não linear e aplicações na ciência florestal" dentro da
+  disciplina de Mensuração Florestal, coordenada pela
+  Prof. Dr. [Rodrigo Geroni Mendes Nascimento](https://sigaa.ufra.edu.br/sigaa/public/docente/portal.jsf?siape=2411802)
+  (ICA/UFRA) e faz parte do Programa de Pós Graduação em Ciências
+  Florestais.
+
+  Nessa aula, faz-se uma exposição geral sobre modelos de regressão não
+  linear para em seguida contextualizar e apresentar aplicações de
+  modelos não lineares em problemas de ciência florestal: modelagem da
+  distribução diamétrica de árvores e modelagem de perfil de fruste. Os
+  estudos de caso usam dados reais e empregam o software de computação
+  estatística R.
+
+institution: "Universidade Federal do Paraná"
+place: "Curitiba/PR (broadcast)"
+# slideurl:
+audience: "Alunos matriculados e ouvintes da disciplina de Mensuração Florestal · PPGCF/UFRA"
+workload: 1h30
