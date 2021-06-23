@@ -1,0 +1,21 @@
+weight: -20210623
+title: "Métodos baseados em reamostragem e simulação computacional"
+subtitle: "Aplicações em Estatística de Data Science"
+instructor: "Walmes Zeviani"
+date: "23 de Junho de 2021 · 11h00"
+videourl: https://www.youtube.com/embed/VJHEeE4hxRY?start=2308
+description: |
+
+  Nessa palestra eu abordei algums métodos baseados em reamostragem e
+  simulação computacional usados na solução de problemas atuais
+  envolvendo dados e métodos estatísticos. Essa palestra foi parte da
+  sessão 20 · "Computação na resolução de problemas atuais" dentro do
+  Congresso Acadêmico Unifesp 2021 (<https://congresso.unifesp.br/>) e
+  teve também a palestra da Profa. Dra. Claudia Bauzer Medeiros
+  (UNICAMP) e a mediação do Prof. Dr. Fábio Augusto Faria (Unifesp).
+
+institution: "Unifesp - Universidade Federal de São Paulo"
+place: "Curitiba/PR (broadcast)"
+# slideurl:
+audience: "Participantes do Congresso Acadêmico Unifesp 2021"
+workload: 00h45
